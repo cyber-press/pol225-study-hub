@@ -30,3 +30,7 @@ The existing Render static site `pol225-study-hub` deploys automatically from th
 Glass controls add a translucent white or emerald gradient, an inset reflection, and a soft shadow. Backdrop blur has a solid-color fallback. Page entry, flashcards, exam questions and disclosure content use short opacity/transform animations; hover motion is limited to fine-pointer devices. Reduced-motion mode disables CSS transitions/animations and uses instant lesson scrolling. Forced-colors mode retains button borders.
 
 Flashcard controls retain keyboard focus through rerenders. Seven interaction tests now cover the existing study flows plus focus retention and reduced-motion scrolling. No production JavaScript dependency was added.
+
+## v2.1.2 navigation
+
+Navigation and main study actions now use lightweight inline SVG icons. Mobile navigation has 25px icons, larger 12–13px labels and 76px-tall tap areas, with extra content clearance for its taller bar. The visible mobile exam label is shortened to “Exam” on small screens; its accessible name remains “Mock exam”. The Chapters tab stays selected inside lessons and quizzes. Decorative icons are hidden from screen readers and selected tabs expose `aria-current`.

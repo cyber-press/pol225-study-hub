@@ -1,0 +1,95 @@
+/* Shared SVG outlines: labels remain visible and screen readers ignore decoration. */
+.ui-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+.btn .ui-icon {
+  margin-right: 8px;
+  vertical-align: -4px;
+}
+.button-label {
+  vertical-align: middle;
+}
+.nav button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.nav button .ui-icon {
+  width: 19px;
+  height: 19px;
+}
+@media (max-width: 640px) {
+  :root {
+    --mobile-nav-clearance: 110px;
+  }
+  .wrap {
+    padding-bottom: calc(
+      var(--mobile-nav-clearance) + env(safe-area-inset-bottom)
+    );
+  }
+  .mobile {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 3px;
+    padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
+  }
+  .mobile button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    min-width: 0;
+    min-height: 76px;
+    margin: 0;
+    padding: 10px 2px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 750;
+    line-height: 1.2;
+  }
+  .mobile button .ui-icon {
+    width: 25px;
+    height: 25px;
+    stroke-width: 1.9;
+  }
+  .mobile .nav-label {
+    display: block;
+    white-space: nowrap;
+    letter-spacing: -0.2px;
+  }
+  .mobile button.active {
+    color: #164b3e;
+    box-shadow:
+      inset 0 1px 0 #fff,
+      inset 0 0 0 1px #83b395,
+      0 3px 8px #17482f12;
+  }
+  .mobile button.active .ui-icon {
+    stroke-width: 2.4;
+  }
+}
+@media (max-width: 360px) {
+  .mobile button {
+    font-size: 12px;
+    gap: 7px;
+  }
+}
+@media (min-width: 641px) and (max-width: 850px) {
+  .nav button {
+    padding: 10px;
+    gap: 6px;
+    font-size: 14px;
+  }
+}
+@media (forced-colors: active) {
+  .mobile button[aria-current="page"] {
+    outline: 2px solid Highlight;
+    outline-offset: -3px;
+  }
+}

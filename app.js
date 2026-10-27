@@ -1803,6 +1803,36 @@ const escapeHtml = (s) =>
       ],
   );
 const safe = (s) => escapeHtml(s);
+const iconPaths = {
+  home: '<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/>',
+  chapters:
+    '<path d="M12 5v16m0-16C9 3 5 3 2 4v15c3-1 7-1 10 2m0-16c3-2 7-2 10-1v15c-3-1-7-1-10 2"/>',
+  flashcards:
+    '<rect x="6" y="7" width="14" height="14" rx="2"/><path d="M16 3H5a2 2 0 0 0-2 2v11m7-4h6m-6 4h4"/>',
+  mock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  revision:
+    '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M8 13h8m-8 4h6"/>',
+  check: '<circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>',
+  flip: '<path d="M3 10a9 9 0 0 1 15-6l3 3M21 3v4h-4M21 14a9 9 0 0 1-15 6l-3-3M3 21v-4h4"/>',
+  play: '<path d="m8 4 12 8-12 8Z"/>',
+};
+function icon(name) {
+  return iconPaths[name]
+    ? '<svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' +
+        iconPaths[name] +
+        "</svg>"
+    : "";
+}
+function actionIcon(action) {
+  if (action === "chapters" || action.startsWith("lesson:")) return "chapters";
+  if (action === "revision" || action.startsWith("rev:")) return "revision";
+  if (action === "mock") return "mock";
+  if (action === "examstart") return "play";
+  if (["complete", "known", "grade", "examsubmit", "quiz"].includes(action))
+    return "check";
+  if (["flip", "cardreset", "retake"].includes(action)) return "flip";
+  return "";
+}
 const navs = [
   ["home", "Home"],
   ["chapters", "Chapters"],
@@ -1839,7 +1869,10 @@ const btn = (label, action, primary = false) =>
   '" data-act="' +
   action +
   '">' +
+  icon(actionIcon(action)) +
+  '<span class="button-label">' +
   label +
+  "</span>" +
   "</button>";
 function go(v) {
   view = v;
@@ -1865,19 +1898,27 @@ function card(c, i) {
   );
 }
 function nav() {
-  for (const id of ["nav", "mobile"])
+  const activeView = view === "lesson" || view === "quiz" ? "chapters" : view;
+  for (const id of ["nav", "mobile"]) {
     $(id).innerHTML = navs
       .map(
         ([k, label]) =>
-          '<button data-go="' +
+          '<button type="button" data-go="' +
           k +
           '" class="' +
-          (view === k ? "active" : "") +
-          '">' +
+          (activeView === k ? "active" : "") +
+          '" aria-label="' +
           label +
-          "</button>",
+          '" ' +
+          (activeView === k ? 'aria-current="page"' : "") +
+          ">" +
+          icon(k) +
+          '<span class="nav-label">' +
+          (id === "mobile" && k === "mock" ? "Exam" : label) +
+          "</span></button>",
       )
       .join("");
+  }
   document
     .querySelectorAll("[data-go]")
     .forEach((b) => (b.onclick = () => go(b.dataset.go)));
