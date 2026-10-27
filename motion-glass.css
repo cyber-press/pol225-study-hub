@@ -1,0 +1,205 @@
+/* Liquid-glass controls and restrained, interruptible motion. */
+:root {
+  --glass-ink: #163f32;
+  --glass-edge: rgba(67, 117, 89, 0.26);
+  --motion-fast: 160ms;
+  --motion-enter: 320ms;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+:is(.btn, .nav button, .revision-jumps button) {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid var(--glass-edge);
+  background: linear-gradient(
+    155deg,
+    rgba(255, 255, 255, 0.98),
+    rgba(230, 242, 234, 0.88)
+  );
+  color: var(--glass-ink);
+  box-shadow:
+    inset 0 1px 0 #fff,
+    inset 0 -1px 0 rgba(21, 75, 48, 0.07),
+    0 4px 12px rgba(24, 72, 48, 0.07);
+  -webkit-backdrop-filter: blur(14px) saturate(135%);
+  backdrop-filter: blur(14px) saturate(135%);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+:is(.btn, .nav button, .revision-jumps button)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  inset: 1px 1px 48%;
+  border-radius: inherit;
+  background: linear-gradient(
+    115deg,
+    rgba(255, 255, 255, 0.65),
+    rgba(255, 255, 255, 0.05)
+  );
+}
+:is(.btn.primary, .nav button.active) {
+  color: #fff;
+  border-color: rgba(11, 65, 44, 0.86);
+  background: linear-gradient(155deg, #28644b 0%, #1c5843 48%, #123f32 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.45),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.16),
+    0 5px 14px rgba(18, 63, 50, 0.17);
+}
+:is(.btn.primary, .nav button.active)::before {
+  background: linear-gradient(
+    115deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.015)
+  );
+}
+:is(.btn, .nav button, .revision-jumps button):focus-visible {
+  outline: 3px solid #26774e;
+  outline-offset: 4px;
+}
+:is(.btn, .nav button, .revision-jumps button):disabled {
+  box-shadow: none;
+  cursor: default;
+}
+@supports not (
+  (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))
+) {
+  :is(.btn, .nav button, .revision-jumps button) {
+    background-color: #f4faf5;
+  }
+}
+/* Keep secondary text readable beside reflective controls. */
+.muted,
+.stat span {
+  color: #536e5d;
+}
+.foot {
+  color: #596f60;
+}
+@media (max-width: 640px) {
+  .mobile {
+    background: rgba(245, 250, 246, 0.92);
+    border-top-color: rgba(129, 168, 143, 0.38);
+    box-shadow:
+      0 -4px 24px rgba(21, 64, 43, 0.06),
+      inset 0 1px 0 #fff;
+    -webkit-backdrop-filter: blur(18px) saturate(135%);
+    backdrop-filter: blur(18px) saturate(135%);
+  }
+  .mobile button {
+    margin: 5px 2px;
+    border-radius: 12px;
+    background: transparent;
+    color: #315b43;
+    touch-action: manipulation;
+  }
+  .mobile button.active {
+    color: #163f32;
+    background: linear-gradient(
+      150deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(210, 235, 218, 0.86)
+    );
+    box-shadow:
+      inset 0 1px 0 #fff,
+      inset 0 0 0 1px rgba(83, 143, 104, 0.2),
+      0 2px 6px rgba(21, 64, 43, 0.07);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  :is(.btn, .nav button, .revision-jumps button, .mobile button, .option) {
+    transition:
+      transform var(--motion-fast) var(--motion-ease),
+      box-shadow 220ms ease,
+      border-color 180ms ease,
+      background-color 180ms ease;
+  }
+  :is(.btn, .nav button, .revision-jumps button, .mobile button):not(
+      :disabled
+    ):active {
+    transform: translateY(1px) scale(0.98);
+  }
+  #app.view-enter > :is(.reading, .hero, .grid) {
+    animation: view-settle var(--motion-enter) var(--motion-ease) both;
+  }
+  #app.view-enter > .hero + .stats + .section-title + .grid {
+    animation-delay: 65ms;
+  }
+  .exam-question {
+    animation: question-settle 190ms var(--motion-ease) both;
+  }
+  .flash-premium {
+    animation: question-settle 210ms var(--motion-ease) both;
+  }
+  .exam-navigator[open] .exam-numbers,
+  .lesson-outline[open] ol,
+  .lesson-reflect[open] p {
+    animation: question-settle 200ms var(--motion-ease) both;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    :is(.btn, .nav button, .revision-jumps button):not(:disabled):hover {
+      transform: translateY(-2px);
+      border-color: #77a68b;
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.9),
+        0 8px 20px rgba(24, 72, 48, 0.14);
+    }
+    :is(.btn.primary, .nav button.active):not(:disabled):hover {
+      border-color: #194d38;
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        0 8px 20px rgba(18, 63, 50, 0.23);
+    }
+    .option:hover {
+      border-color: #79a68a;
+      background-color: #f6fbf7;
+    }
+    .option:has(input:checked):hover {
+      background-color: #ecf8ee;
+    }
+  }
+}
+@keyframes view-settle {
+  from {
+    opacity: 0.5;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes question-settle {
+  from {
+    opacity: 0.65;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  .card:hover {
+    transform: none;
+  }
+}
+@media (forced-colors: active) {
+  :is(.btn, .nav button, .revision-jumps button, .mobile button.active) {
+    border: 1px solid ButtonText;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+  :is(.btn, .nav button, .revision-jumps button)::before {
+    display: none;
+  }
+}

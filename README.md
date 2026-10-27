@@ -24,3 +24,9 @@ Progress remains in local storage; the current exam remains in session storage.
 ## Deployment
 
 The existing Render static site `pol225-study-hub` deploys automatically from this repository's `main` branch and publishes the repository root. No new infrastructure or build settings are required. Verify the Render deploy commit and live status, then check the live homepage, revision sheets and mock exam on desktop and mobile.
+
+## v2.1.1 visual polish
+
+Glass controls add a translucent white or emerald gradient, an inset reflection, and a soft shadow. Backdrop blur has a solid-color fallback. Page entry, flashcards, exam questions and disclosure content use short opacity/transform animations; hover motion is limited to fine-pointer devices. Reduced-motion mode disables CSS transitions/animations and uses instant lesson scrolling. Forced-colors mode retains button borders.
+
+Flashcard controls retain keyboard focus through rerenders. Seven interaction tests now cover the existing study flows plus focus retention and reduced-motion scrolling. No production JavaScript dependency was added.

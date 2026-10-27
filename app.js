@@ -1752,12 +1752,18 @@ function updateReading(n) {
   if (b) b.textContent = pct + "% reached";
   if (c) c.style.width = pct + "%";
 }
+function scrollMotion() {
+  return typeof window.matchMedia === "function" &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ? "instant"
+    : "smooth";
+}
 function jumpLesson(n) {
   const el = document.getElementById("lesson-section-" + n);
   if (el) {
     rememberSection(chosen, n);
     updateReading(n);
-    el.scrollIntoView({ behavior: "smooth", block: "start" });
+    el.scrollIntoView({ behavior: scrollMotion(), block: "start" });
   }
 }
 let lessonObserver = null;
@@ -1877,6 +1883,18 @@ function nav() {
     .forEach((b) => (b.onclick = () => go(b.dataset.go)));
 }
 function render() {
+  const motionKey = [
+    view,
+    view === "lesson" || view === "quiz" ? chosen : "",
+    view === "revision" ? revisionIndex : "",
+    view === "lesson" ? lessonMode : "",
+  ].join(":");
+  const sameScreen = $("app").dataset.motionKey === motionKey;
+  const focused = document.activeElement;
+  const restoreCardFocus =
+    sameScreen && view === "flashcards" && $("app").contains(focused)
+      ? { action: focused.dataset.act, id: focused.id }
+      : null;
   nav();
   let h = "";
   if (view === "home") {
@@ -2260,6 +2278,16 @@ function render() {
     h = renderMock();
   }
   $("app").innerHTML = h;
+  $("app").classList.toggle("view-enter", !sameScreen);
+  $("app").dataset.motionKey = motionKey;
+  if (restoreCardFocus) {
+    const control = restoreCardFocus.id
+      ? document.getElementById(restoreCardFocus.id)
+      : Array.from($("app").querySelectorAll("[data-act]")).find(
+          (el) => el.dataset.act === restoreCardFocus.action,
+        );
+    control?.focus({ preventScroll: true });
+  }
   if ($("examNavigator"))
     $("examNavigator").ontoggle = (e) => {
       examNavOpen = e.currentTarget.open;
@@ -2553,7 +2581,7 @@ function act(a) {
   if (a === "lessonfinish") {
     document
       .getElementById("lesson-completion")
-      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+      ?.scrollIntoView({ behavior: scrollMotion(), block: "start" });
     return;
   }
   if (a.startsWith("lessonmode:")) {
@@ -2630,7 +2658,7 @@ try {
 } catch {}
 window.onhashchange = () => {
   const h = location.hash.substring(1);
-  if (navs.some((x) => x[0] === h)) go(h);
+  if (view !== h && navs.some((x) => x[0] === h)) go(h);
 };
 if (navs.some((x) => x[0] === location.hash.substring(1)))
   view = location.hash.substring(1);

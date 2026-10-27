@@ -191,3 +191,51 @@ test("expired exam auto-submits once and results survive reload", () => {
     b.close();
   }
 });
+
+test("flashcard rerenders preserve keyboard focus and do not replay page entry", () => {
+  const a = app();
+  try {
+    a.click('[data-go="flashcards"]');
+    const card = a.doc.querySelector('[data-act="flip"]');
+    card.focus();
+    a.action("flip");
+    assert.equal(a.doc.activeElement.dataset.act, "flip");
+    assert.equal(
+      a.doc.activeElement.getAttribute("aria-label"),
+      "Show question",
+    );
+    assert.equal(
+      a.doc.querySelector("#app").classList.contains("view-enter"),
+      false,
+    );
+    const next = a.doc.querySelector('[data-act="cardnext"]');
+    next.focus();
+    a.action("cardnext");
+    assert.equal(a.doc.activeElement.dataset.act, "cardnext");
+  } finally {
+    a.close();
+  }
+});
+
+test("lesson scroll behavior respects reduced motion and its unsupported-browser fallback", () => {
+  const a = app();
+  try {
+    const observed = [];
+    a.w.HTMLElement.prototype.scrollIntoView = (options) =>
+      observed.push(options.behavior);
+    a.click('[data-go="chapters"]');
+    a.action("lesson:0");
+    a.w.matchMedia = () => ({ matches: true });
+    a.action("lessonjump:1");
+    a.action("lessonfinish");
+    assert.deepEqual(observed.slice(-2), ["instant", "instant"]);
+    a.w.matchMedia = () => ({ matches: false });
+    a.action("lessonjump:2");
+    assert.equal(observed.at(-1), "smooth");
+    a.w.matchMedia = undefined;
+    a.action("lessonjump:3");
+    assert.equal(observed.at(-1), "smooth");
+  } finally {
+    a.close();
+  }
+});
