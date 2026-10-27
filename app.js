@@ -1,1 +1,2644 @@
-const chapters=[{"id":1,"title":"World-Systems Perspective","subtitle":"How wealth and power are organized globally","sections":[{"title":"Main idea","body":"Immanuel Wallerstein developed modern world-systems analysis. It studies the linked world economy rather than isolated countries."},{"title":"How it works","body":"Core economies dominate profitable production; peripheral economies have weaker bargaining power; the semi-periphery combines elements of both."},{"title":"Nigerian or real-world connection","body":"Nigeria exports crude oil, while refining, shipping, finance and high-value services can happen elsewhere."},{"title":"Critical thinking","body":"The framework helps explain inequality, but domestic policy and institutions also matter."}],"quiz":[{"question":"Who developed modern world-systems analysis?","options":["Immanuel Wallerstein","Adam Smith","John Locke","David Ricardo"],"answer":0},{"question":"Which zone has a mixed position?","options":["Core","Semi-periphery","Periphery","Empire"],"answer":1},{"question":"What is the main unit of analysis?","options":["A single town","The world-system","One household","One market"],"answer":1},{"question":"What describes core activity?","options":["Profitable, powerful production","Only farming","No trade","Always low wages"],"answer":0},{"question":"Which is a valid limitation?","options":["It ignores all history","It may understate domestic policy","It denies international trade","It excludes economics"],"answer":1}]},{"id":2,"title":"Major Approaches to Political Economy","subtitle":"Different explanations for wealth and power","sections":[{"title":"Main idea","body":"Liberal approaches emphasize markets, competition, private enterprise, and rules governing exchange."},{"title":"How it works","body":"Marxist approaches examine class, ownership, labor, power, and conflict between owners and workers."},{"title":"Nigerian or real-world connection","body":"Dependency approaches focus on unequal international economic relationships; world-systems analysis studies the global structure."},{"title":"Critical thinking","body":"Each perspective illuminates some causes, but no single theory fully explains every economy."}],"quiz":[{"question":"Which approach emphasizes market competition?","options":["Marxist","Liberal","Dependency","Mercantilist"],"answer":1},{"question":"Who is central to Marxist thought?","options":["Karl Marx","Adam Smith","John Locke","Max Weber"],"answer":0},{"question":"The proletariat are chiefly...","options":["Factory owners","Wage earners","Landlords","Ministers"],"answer":1},{"question":"Dependency theory highlights...","options":["Only election systems","Unequal economic reliance","Only weather","Population counts"],"answer":1},{"question":"An academic approach is...","options":["A way of explaining a problem","An election","A tax receipt","A trade licence"],"answer":0}]},{"id":3,"title":"Capitalism and Socialism","subtitle":"Comparing economic systems","sections":[{"title":"Main idea","body":"Capitalism relies heavily on private ownership, markets, profits, and investment."},{"title":"How it works","body":"Socialism emphasizes social or public ownership or control of important productive resources and distribution goals."},{"title":"Nigerian or real-world connection","body":"Most real economies are mixed, combining private enterprise with government services and regulation."},{"title":"Critical thinking","body":"Comparisons should consider incentives, inequality, freedom, productivity, and how policies work in practice."}],"quiz":[{"question":"Under capitalism, productive assets are often...","options":["Privately owned","Always state owned","Never owned","Only foreign owned"],"answer":0},{"question":"Socialism generally emphasizes...","options":["Only monopoly profits","Social or public control","No public services","No workers"],"answer":1},{"question":"Most modern economies are...","options":["Purely capitalist","Purely socialist","Mixed","Without markets"],"answer":2},{"question":"Profit incentives are especially associated with...","options":["Capitalist markets","No economic system","Colonial rule only","Elections"],"answer":0},{"question":"A fair comparison considers...","options":["Only labels","Only slogans","Outcomes and institutions","Only population"],"answer":2}]},{"id":4,"title":"Development and Underdevelopment","subtitle":"Why living standards differ","sections":[{"title":"Main idea","body":"Economic development includes improvements in livelihoods, health, education, productivity, and opportunity."},{"title":"How it works","body":"GDP growth matters, but does not alone show how benefits are shared across society."},{"title":"Nigerian or real-world connection","body":"Structural challenges can include weak infrastructure, political instability, poor institutions, and unequal global trade."},{"title":"Critical thinking","body":"Evaluate development using several indicators, and distinguish causes backed by evidence from contested claims."}],"quiz":[{"question":"Development is best assessed through...","options":["GDP alone","Several social and economic measures","Exports alone","Land size"],"answer":1},{"question":"GDP growth always means equal prosperity.","options":["True","False","Only in cities","Only in Africa"],"answer":1},{"question":"Which is a development indicator?","options":["Life expectancy","Flag design","Number of holidays","Country name"],"answer":0},{"question":"Poor infrastructure can...","options":["Raise transport costs","Guarantee growth","End unemployment","Replace education"],"answer":0},{"question":"A sound explanation uses...","options":["Only opinion","Evidence and multiple causes","One slogan","No comparisons"],"answer":1}]},{"id":5,"title":"Dependency Theory","subtitle":"How international reliance affects choices","sections":[{"title":"Main idea","body":"Dependency theorists argue that poorer economies can become structurally reliant on richer countries for markets, technology, credit, and capital."},{"title":"How it works","body":"Andre Gunder Frank and Samir Amin are influential thinkers associated with dependency perspectives."},{"title":"Nigerian or real-world connection","body":"Reliance on one export commodity can expose government revenue to volatile global prices."},{"title":"Critical thinking","body":"A criticism is that dependency arguments can overlook internal reforms and successful industrialization experiences."}],"quiz":[{"question":"Dependency theory studies...","options":["Trade only within villages","Unequal external economic reliance","Voting age","Weather"],"answer":1},{"question":"Which thinker is linked to dependency?","options":["Andre Gunder Frank","Isaac Newton","Plato","John Locke"],"answer":0},{"question":"Relying on one export can increase...","options":["Price vulnerability","Economic certainty","Political neutrality","Literacy automatically"],"answer":0},{"question":"A common criticism is...","options":["It may overlook domestic policy","It denies history","It rejects all trade data","It is geography"],"answer":0},{"question":"Diversifying production can...","options":["Reduce reliance on one commodity","Guarantee equality","End inflation instantly","Eliminate government"],"answer":0}]},{"id":6,"title":"Colonialism and Imperialism","subtitle":"How historical control shaped economies","sections":[{"title":"Main idea","body":"Colonialism involves direct foreign control or settlement over territories and their institutions."},{"title":"How it works","body":"Imperialism is broader domination or influence exercised through political, economic, or military power."},{"title":"Nigerian or real-world connection","body":"Colonial systems often reorganized infrastructure, agriculture, labor, and trade toward imperial interests."},{"title":"Critical thinking","body":"Historical effects vary, and present economic outcomes also reflect choices made after independence."}],"quiz":[{"question":"Colonialism typically involves...","options":["Direct external rule","Local elections only","Currency exchange","Population statistics"],"answer":0},{"question":"Imperialism is...","options":["Broader forms of domination","Only farming","A tax rate","Always direct settlement"],"answer":0},{"question":"Colonial export economies often focused on...","options":["Imperial market needs","Only local food","No international trade","Digital services"],"answer":0},{"question":"Nigeria gained independence in...","options":["1960","1979","1999","1945"],"answer":0},{"question":"Which statement is balanced?","options":["History and later policy both matter","Only one factor matters","All colonies identical","No historical effects"],"answer":0}]},{"id":7,"title":"The State and the Economy","subtitle":"What governments do in markets","sections":[{"title":"Main idea","body":"Governments create laws, provide infrastructure and public goods, collect taxes, and regulate economic activity."},{"title":"How it works","body":"Fiscal policy uses spending and taxation; monetary policy influences credit, money conditions, and interest rates."},{"title":"Nigerian or real-world connection","body":"Market failures such as pollution, monopoly power, and inadequate public goods can justify intervention."},{"title":"Critical thinking","body":"Policy choices create trade-offs; effective oversight and capable institutions are vital."}],"quiz":[{"question":"Fiscal policy involves...","options":["Taxes and government spending","Only rainfall","Only courts","Population"],"answer":0},{"question":"Monetary policy concerns...","options":["Money and interest-rate conditions","Road repairs only","Elections only","Imports only"],"answer":0},{"question":"An example of a public good is...","options":["Street lighting","A private phone","A meal","A shirt"],"answer":0},{"question":"Regulation can respond to...","options":["Monopoly power","Only birthdays","No market activity","Only agriculture"],"answer":0},{"question":"Strong institutions can improve...","options":["Policy implementation","Weather","Geography","Mineral formation"],"answer":0}]},{"id":8,"title":"Globalization and the World Economy","subtitle":"How economies connect across borders","sections":[{"title":"Main idea","body":"Globalization describes growing cross-border flows of goods, capital, information, people, and ideas."},{"title":"How it works","body":"Global value chains divide production among firms and countries; design and branding may capture high returns."},{"title":"Nigerian or real-world connection","body":"Benefits can include knowledge transfer, larger markets, and new jobs; risks include shocks, unfair bargaining, and uneven gains."},{"title":"Critical thinking","body":"Policy debates concern openness, labor rights, taxation, resilience, and national economic choices."}],"quiz":[{"question":"Globalization increases...","options":["Cross-border connections","National isolation","Only local sales","No migration"],"answer":0},{"question":"A global value chain involves...","options":["Production across locations","One village only","No businesses","Only government"],"answer":0},{"question":"One possible benefit is...","options":["Access to larger markets","Guaranteed equality","No economic shocks","No competition"],"answer":0},{"question":"One possible risk is...","options":["Exposure to external shocks","No imports","No trade","No investment"],"answer":0},{"question":"Who may capture more value?","options":["Firms controlling design and brands","Only raw-material suppliers","Every actor equally","No one"],"answer":0}]}];const flashcardBank=[[{"id":"c1-1","question":"What is a world-system?","answer":"A historically connected economy with a division of labour across regions."},{"id":"c1-2","question":"What is the core in world-systems theory?","answer":"Places concentrating high-return activities and strong economic power."},{"id":"c1-3","question":"What is the periphery?","answer":"Places often concentrated in lower-return activities with weaker bargaining power."},{"id":"c1-4","question":"What is the semi-periphery?","answer":"An intermediate zone mixing core and peripheral production processes."},{"id":"c1-5","question":"How can Nigerian crude oil illustrate commodity chains?","answer":"Extraction may occur in Nigeria while refining, branding and profits accrue elsewhere."}],[{"id":"c2-1","question":"What does economic liberalism emphasize?","answer":"Markets, private enterprise, competition and institutions supporting exchange."},{"id":"c2-2","question":"Who wrote The Wealth of Nations?","answer":"Adam Smith, published in 1776."},{"id":"c2-3","question":"What is the Marxist idea of class conflict?","answer":"Conflict between groups with different positions in ownership and production."},{"id":"c2-4","question":"What is mercantilism?","answer":"An approach historically emphasizing state power and trade advantages."},{"id":"c2-5","question":"How do approaches differ in explaining poverty?","answer":"They emphasize different mixes of markets, class, institutions and global power."}],[{"id":"c3-1","question":"What are the means of production?","answer":"Assets used to produce goods and services, such as factories and machinery."},{"id":"c3-2","question":"What is private ownership?","answer":"Individuals or firms hold rights over productive property."},{"id":"c3-3","question":"What is public ownership?","answer":"The state or community owns or controls productive assets."},{"id":"c3-4","question":"What is a mixed economy?","answer":"An economy combining private enterprise with public services and regulation."},{"id":"c3-5","question":"Why is Nigeria described as a mixed economy?","answer":"Private firms operate alongside state-owned enterprises and public services."}],[{"id":"c4-1","question":"How is development different from GDP growth?","answer":"Development includes health, education and opportunity, not just output."},{"id":"c4-2","question":"What does HDI measure?","answer":"A composite of health, education and income dimensions."},{"id":"c4-3","question":"What is underdevelopment?","answer":"Persistent limits on productive capacity and human well-being."},{"id":"c4-4","question":"How can unreliable electricity affect firms?","answer":"It raises operating costs and can reduce productivity."},{"id":"c4-5","question":"What is structural transformation?","answer":"A shift of work and output toward more productive economic activities."}],[{"id":"c5-1","question":"What is dependency theory's main argument?","answer":"Unequal international ties can constrain poorer economies' development."},{"id":"c5-2","question":"Who was Andre Gunder Frank?","answer":"A prominent scholar associated with dependency theory."},{"id":"c5-3","question":"Who was Samir Amin?","answer":"A political economist who studied unequal global accumulation."},{"id":"c5-4","question":"What is primary-commodity dependence?","answer":"Reliance on exporting raw goods such as crude oil or cocoa."},{"id":"c5-5","question":"What is a major criticism of dependency theory?","answer":"It can underplay domestic institutions and successful industrialization cases."}],[{"id":"c6-1","question":"What is colonialism?","answer":"Direct foreign rule or settlement over another territory."},{"id":"c6-2","question":"What is imperialism?","answer":"Broader political, economic or military domination beyond direct rule."},{"id":"c6-3","question":"When did Nigeria become independent?","answer":"1 October 1960."},{"id":"c6-4","question":"What is an extractive colonial economy?","answer":"One organized heavily around obtaining resources for external markets."},{"id":"c6-5","question":"How can colonial transport routes shape later trade?","answer":"Routes built for exports may leave gaps in connections between local regions."}],[{"id":"c7-1","question":"What is fiscal policy?","answer":"Government decisions about taxation and public spending."},{"id":"c7-2","question":"What is monetary policy?","answer":"Central-bank actions influencing money, credit and interest rates."},{"id":"c7-3","question":"What does the Central Bank of Nigeria do?","answer":"It conducts monetary policy and supports financial-system stability."},{"id":"c7-4","question":"What is a public good?","answer":"A good that is generally non-rival and non-excludable, such as national defence."},{"id":"c7-5","question":"What is market failure?","answer":"When markets alone do not allocate resources efficiently, such as with pollution."}],[{"id":"c8-1","question":"What is globalization?","answer":"Growing cross-border flows of trade, capital, information and people."},{"id":"c8-2","question":"What is a global value chain?","answer":"Production stages spread across firms and countries."},{"id":"c8-3","question":"What is foreign direct investment (FDI)?","answer":"Cross-border investment involving lasting influence in a business."},{"id":"c8-4","question":"What is a possible benefit of regional trade?","answer":"A larger market for producers, including firms in Nigeria."},{"id":"c8-5","question":"What is one risk of global interdependence?","answer":"Disruptions abroad can spread through supply chains and prices."}]];const additionalExamQuestions=[[{"question":"Which scholar studied long cycles of global accumulation?","options":["Giovanni Arrighi","David Ricardo","John Maynard Keynes","Friedrich Hayek"],"answer":0,"chapter":0},{"question":"What does hegemony mean in world-systems analysis?","options":["Predominant leadership in a global order","Complete economic isolation","Equal income everywhere","A local tax exemption"],"answer":0,"chapter":0},{"question":"A commodity chain helps analysts trace...","options":["Production stages and distribution of profits","Only voting patterns","Only birth rates","Only weather"],"answer":0,"chapter":0}],[{"question":"Which economist is closely linked to comparative advantage?","options":["David Ricardo","Karl Marx","Samir Amin","Frantz Fanon"],"answer":0,"chapter":1},{"question":"What does political economy examine?","options":["Relations between politics, power and economic activity","Only accounting entries","Only individual psychology","Only military strategy"],"answer":0,"chapter":1},{"question":"What is a central concern of institutional approaches?","options":["How rules and organizations shape outcomes","The color of banknotes","Only household size","Only export tonnage"],"answer":0,"chapter":1}],[{"question":"What is nationalization?","options":["Transfer of private assets to public ownership","A rise in exports","A change in exchange rates","Removal of tariffs"],"answer":0,"chapter":2},{"question":"What is privatization?","options":["Transfer of state assets to private ownership","A new public tax","An import quota","An election reform"],"answer":0,"chapter":2},{"question":"What is a market price?","options":["A price shaped by supply and demand","A price fixed by history","Always a government subsidy","Always equal to wages"],"answer":0,"chapter":2}],[{"question":"Which indicator measures income inequality?","options":["Gini coefficient","Consumer price index","Exchange rate","Population density"],"answer":0,"chapter":3},{"question":"What is human capital?","options":["People's skills, education and health","Only physical machinery","Only natural resources","A country's currency"],"answer":0,"chapter":3},{"question":"What is the poverty headcount ratio?","options":["Share of people below a defined poverty line","Total value of exports","Annual inflation rate","Number of firms registered"],"answer":0,"chapter":3}],[{"question":"What is an enclave economy?","options":["An export sector weakly linked to the rest of the economy","A fully diversified economy","A local election system","A universal pension scheme"],"answer":0,"chapter":4},{"question":"What is economic diversification?","options":["Expanding the range of productive activities","Depending on one export","Banning all imports","Fixing every price"],"answer":0,"chapter":4},{"question":"Which strategy can reduce dependence on raw exports?","options":["Developing domestic processing industries","Concentrating on one commodity","Reducing all education","Stopping all infrastructure spending"],"answer":0,"chapter":4}],[{"question":"What is indirect rule in colonial administration?","options":["Governing through existing local authorities","Rule by elected national parliament","Government without local leaders","Control through stock markets only"],"answer":0,"chapter":5},{"question":"Which event marked Nigeria's political independence?","options":["End of British colonial rule in 1960","Creation of ECOWAS in 1975","Return to civilian rule in 1999","Formation of the African Union in 2002"],"answer":0,"chapter":5}],[{"question":"What is an externality?","options":["A cost or benefit affecting third parties","A central bank reserve","A government budget line","An import licence"],"answer":0,"chapter":6},{"question":"What does a progressive tax do?","options":["Takes a higher share of income as income rises","Charges every person the same amount","Taxes only exports","Eliminates public revenue"],"answer":0,"chapter":6}],[{"question":"What is a tariff?","options":["A tax on imported goods","A subsidy to all consumers","A bank interest payment","A wage contract"],"answer":0,"chapter":7},{"question":"What is a trade deficit?","options":["Imports of goods and services exceed exports","Exports exceed imports","A government budget surplus","A rise in foreign reserves"],"answer":0,"chapter":7},{"question":"What is a non-tariff trade barrier?","options":["A trade restriction other than a tariff","A tax on imported goods","A currency note","A private bank deposit"],"answer":0,"chapter":7}]];const revisionNotes=[["Wallerstein; core, semi-periphery, periphery; commodity chains","Immanuel Wallerstein; Giovanni Arrighi","Nigeria's oil supply chain connects extraction with overseas refining and finance.","Core economies tend to control higher-value activities; peripheral economies often have weaker bargaining power.","Explain world-systems theory and apply it to Nigeria."],["Liberalism; Marxism; mercantilism; institutions; class","Adam Smith; Karl Marx; David Ricardo","Nigerian firms operate in markets shaped by taxation, regulation and public services.","Liberalism emphasizes markets; Marxism analyzes class and ownership; mercantilism stresses state trade power.","Compare liberal and Marxist political economy."],["Capitalism; socialism; mixed economy; privatization; nationalization","Adam Smith; Karl Marx","Nigeria combines private firms with state regulation and public infrastructure.","Capitalism emphasizes private ownership; socialism emphasizes collective ownership; mixed systems combine elements.","Distinguish capitalism, socialism and mixed economies."],["GDP; development; HDI; inequality; structural transformation","Amartya Sen; development economics","Oil GDP growth does not automatically improve electricity, education or health.","Growth concerns output; development includes human welfare and opportunities.","Why is GDP growth insufficient to measure development?"],["Dependency; unequal exchange; commodity reliance; diversification","Andre Gunder Frank; Samir Amin; Raúl Prebisch","Oil-export dependence exposes Nigeria to international price volatility.","Dependency stresses external structures; domestic institutions also influence outcomes.","Evaluate dependency theory in the Nigerian context."],["Colonialism; imperialism; indirect rule; extraction; decolonization","Walter Rodney; Frantz Fanon","Colonial infrastructure often connected export-producing regions to ports; Nigeria gained independence in 1960.","Colonialism involves direct territorial rule; imperialism can include wider indirect domination.","Discuss economic legacies of British colonial rule in Nigeria."],["Fiscal policy; monetary policy; public goods; externalities","John Maynard Keynes; public-finance theory","The Nigerian government sets budgets; the Central Bank of Nigeria conducts monetary policy.","Fiscal policy uses taxation and spending; monetary policy influences money and credit.","Compare fiscal and monetary policy with Nigerian examples."],["Globalization; FDI; tariffs; value chains; regional trade","David Ricardo; international trade theory","African regional trade may create markets but requires competitive logistics and production.","Global integration offers markets and investment but exposes economies to external shocks.","Evaluate benefits and risks of globalization for Nigeria."]];const revisionDeep=[{"concepts":[["World-system","An interconnected historical economy with a global division of labour."],["Core","Areas concentrating high-profit activities and political-economic influence."],["Periphery","Areas often concentrated in lower-return production with weaker bargaining power."],["Semi-periphery","An intermediate position combining core and peripheral activities."],["Commodity chain","Linked stages of producing, transporting and selling a product."]],"thinkers":[["Immanuel Wallerstein","Developed modern world-systems analysis."],["Giovanni Arrighi","Studied systemic cycles of accumulation and changing global leadership."]],"examples":["Follow Nigerian crude oil from extraction to refining, shipping, financing and final sale; value and control can be distributed unequally.","Consider how building domestic refining and petrochemical capacity may alter Nigeria's position in value chains."],"comparison":["Core versus periphery: higher-value activities and influence versus greater dependence on lower-return activities.","World-systems versus dependency: both study structural inequality; world-systems emphasizes the whole global division of labour."],"questions":["Explain core, semi-periphery and periphery with examples.","Assess the usefulness and limitations of world-systems analysis for Nigeria.","How can commodity chains reproduce global inequality?"],"answer":"Define the world-system; explain the three zones; trace a Nigerian commodity chain; evaluate domestic policies and historical changes."},{"concepts":[["Political economy","Study of how economic activity interacts with political power, institutions and distribution."],["Economic liberalism","Approach emphasizing markets, exchange and incentives, with varying roles for government."],["Marxism","Approach emphasizing class, ownership, labour and accumulation."],["Mercantilism","Historical approach prioritizing state power and trade advantage."],["Institutions","Formal and informal rules shaping economic choices."]],"thinkers":[["Adam Smith","Associated with classical political economy and market coordination."],["Karl Marx","Analyzed capitalism through class relations and ownership."],["David Ricardo","Developed comparative-advantage arguments in international trade."]],"examples":["Examine the relationship between Nigerian business competition, taxation and public regulation.","Compare workers' wages and owners' returns in a hypothetical Nigerian manufacturing company."],"comparison":["Liberal: incentives and markets; Marxist: class and ownership; mercantilist: state power and strategic trade.","A theory may illuminate one mechanism without explaining every outcome."],"questions":["Compare liberal and Marxist explanations of economic inequality.","Explain how institutions affect Nigeria's economy.","Discuss mercantilism and its differences from economic liberalism."],"answer":"State each approach's assumptions, explain its view of the state and markets, use an example, then evaluate strengths and limits."},{"concepts":[["Capitalism","System in which private ownership and market exchange play central roles."],["Socialism","Family of systems emphasizing social or public ownership and collective goals."],["Mixed economy","Combination of market activity and government involvement."],["Privatization","Transfer of state assets or operations to private ownership."],["Nationalization","Transfer of private assets to public ownership."]],"thinkers":[["Adam Smith","Influential thinker on markets and division of labour."],["Karl Marx","Critiqued capitalist ownership and class relations."]],"examples":["Nigeria has privately owned banks and businesses alongside government regulation and public services.","Debate whether privatization of an enterprise improves efficiency, access and accountability."],"comparison":["Capitalism: private ownership prominent; socialism: collective ownership prominent; mixed economy: both.","Ownership alone does not determine outcomes; regulation, competition and governance matter."],"questions":["Compare capitalism, socialism and mixed economies.","Discuss advantages and disadvantages of privatization.","Why is Nigeria commonly described as a mixed economy?"],"answer":"Define each system, compare ownership and allocation, illustrate Nigeria's mix, and evaluate efficiency and equity."},{"concepts":[["Economic growth","Increase in production, often measured using real GDP."],["Economic development","Broader improvement in living standards, capabilities and productive structures."],["HDI","Composite index of health, education and income dimensions."],["Gini coefficient","Summary measure of income or wealth inequality."],["Structural transformation","Shift of workers and output toward more productive activities."]],"thinkers":[["Amartya Sen","Emphasized development as expansion of substantive freedoms and capabilities."],["W. Arthur Lewis","Known for a dual-sector model of structural transformation."]],"examples":["Higher petroleum export earnings can raise GDP without ensuring better schools, health care or reliable electricity.","Compare jobs created in processing industries with export revenue from raw commodities."],"comparison":["Growth measures output; development also assesses distribution, services and opportunities.","GDP per capita is not a direct measure of equality or quality of life."],"questions":["Differentiate growth from development.","Explain the limitations of GDP as a welfare measure.","How can Nigeria promote inclusive structural transformation?"],"answer":"Define growth and development, use GDP and HDI, illustrate with oil revenues and public services, then assess distribution."},{"concepts":[["Dependency theory","Explains how unequal international relations may constrain development."],["Center–periphery","Distinction between dominant and structurally dependent economic positions."],["Commodity dependence","Heavy reliance on a narrow range of primary exports."],["Enclave economy","Export sector with limited links to other domestic sectors."],["Diversification","Broadening productive activities and export sources."]],"thinkers":[["Andre Gunder Frank","Argued that development and underdevelopment are historically connected."],["Samir Amin","Analyzed unequal accumulation between center and periphery."],["Raúl Prebisch","Structuralist thinker associated with center–periphery trade concerns; a precursor, not identical to dependency theory."]],"examples":["Reliance on crude-oil earnings exposes Nigeria to world-price fluctuations.","Domestic processing and stronger supplier links may retain more value locally."],"comparison":["Dependency highlights external constraints; institutional approaches emphasize domestic governance and policy.","Export diversification may reduce vulnerability but does not guarantee equitable outcomes."],"questions":["Explain dependency theory and its major thinkers.","Assess dependency theory's relevance to Nigeria.","Critically discuss diversification as a development strategy."],"answer":"Define dependency, identify mechanisms, discuss Nigerian oil exposure, and balance external and domestic explanations."},{"concepts":[["Colonialism","Direct political control or settlement by an external power."],["Imperialism","Broader extension of political or economic domination."],["Indirect rule","Colonial administration through selected local authorities."],["Extractive economy","Production organized substantially around removal of resources for external markets."],["Decolonization","Process of ending colonial rule."]],"thinkers":[["Walter Rodney","Examined historical relationships between European expansion and African underdevelopment."],["Frantz Fanon","Analyzed colonial power, violence and liberation."]],"examples":["British colonial rail and port infrastructure often served export trade as well as other functions.","Nigeria gained independence from Britain on 1 October 1960."],"comparison":["Colonialism generally involves direct rule; imperialism can include indirect forms of control.","Colonial economic legacies interact with post-independence policies and institutions."],"questions":["Distinguish colonialism and imperialism.","Evaluate colonialism's effects on Nigeria's economic structure.","Explain indirect rule and its political-economic consequences."],"answer":"Define both terms, describe administration and extraction, illustrate Nigerian transport and exports, and consider postcolonial choices."},{"concepts":[["Fiscal policy","Government decisions on taxation and public expenditure."],["Monetary policy","Central-bank actions influencing monetary and credit conditions."],["Public good","Good that is non-rival and non-excludable in the economic sense."],["Externality","Cost or benefit affecting third parties outside a transaction."],["Market failure","Situation where markets alone may not allocate resources efficiently."]],"thinkers":[["John Maynard Keynes","Influential in macroeconomic stabilization and demand management."],["Richard Musgrave","Influential in public-finance analysis of government functions."]],"examples":["Nigeria's government budgets determine spending priorities and revenue plans.","The Central Bank of Nigeria uses monetary policy tools to influence inflation and financial conditions."],"comparison":["Fiscal tools: taxes and spending; monetary tools: interest rates, liquidity and credit conditions.","Public provision, regulation and taxes can address different market failures."],"questions":["Compare fiscal and monetary policy.","Explain three reasons for government intervention in markets.","Use Nigerian examples to discuss inflation and policy responses."],"answer":"Define each policy, identify responsible institutions and tools, apply a Nigerian example, and assess trade-offs."},{"concepts":[["Globalization","Increasing cross-border integration of production, finance, information and exchange."],["FDI","Investment intended to establish a lasting interest or influence in a foreign enterprise."],["Tariff","Tax imposed on imported goods."],["Global value chain","Cross-border sequence of activities creating and delivering a product."],["Regional integration","Cooperation to reduce barriers among participating economies."]],"thinkers":[["David Ricardo","Comparative advantage helps explain potential gains from specialization and trade."],["Dani Rodrik","Examines tensions between global integration and domestic policy choices."]],"examples":["Regional African trade may create markets for Nigerian manufactured products.","Global supply disruptions can raise the cost of imported machinery and inputs."],"comparison":["Potential benefits: markets, technology and investment; risks: shocks, unequal gains and competitive pressure.","Tariffs may protect some producers but also raise costs for consumers and downstream firms."],"questions":["Evaluate globalization's benefits and risks for Nigeria.","Explain FDI and its possible effects on development.","Discuss regional trade and Nigerian industrial competitiveness."],"answer":"Define globalization, explain channels, use Nigerian trade examples, weigh gains and risks, and recommend practical policies."}];const advancedLessons=[[["Learning objectives","Explain why world-systems analysis examines a connected historical economy; distinguish core, semi-periphery and periphery; trace a commodity chain; assess the theory using Nigeria."],["Historical background","Immanuel Wallerstein developed modern world-systems analysis in the 1970s. He argued that the modern capitalist world-economy grew through centuries of expanding trade, production and political competition. Its units are linked: events in one region affect opportunities elsewhere. Countries are important, but the world-system is the larger unit of analysis."],["Core, periphery and semi-periphery","Core processes tend to command higher profits, advanced technology, finance and stronger bargaining power. Peripheral processes often face lower returns, dependence on commodity exports and less influence over prices. Semi-peripheral positions combine characteristics of both and may buffer tensions in the wider system. These describe relationships and activities, not permanent labels for entire populations."],["Commodity chains and unequal exchange","A commodity chain links extraction, processing, transportation, finance, branding and retail. Different actors capture different shares of the final value. Unequal exchange is a contested explanation for why some relationships systematically favor powerful producers and buyers. To analyse a chain, identify who owns assets, sets standards, controls technology and bears risk."],["Nigerian case study: petroleum","Consider Nigerian crude oil. Extraction occurs domestically, while parts of shipping, trading, financing, refining and distribution can be organized across borders. Ask where skilled jobs, technological learning and margins accumulate. Greater domestic refining could change some links, but infrastructure, governance, global prices and market access also influence the outcome."],["Critical evaluation","The theory highlights long-term structural inequality and global interdependence. Critics argue it may overstate external constraints and understate domestic policy, entrepreneurship, institutions and movement between positions. A balanced answer connects global structure with specific Nigerian decisions rather than claiming geography determines destiny."],["Worked exam answer","Question: Explain the world-systems perspective with Nigerian examples. Begin by defining the world-system and Wallerstein's contribution. Explain core, periphery and semi-periphery. Trace the petroleum commodity chain and discuss who captures value. Conclude by weighing structural constraints against domestic industrial policy and institutional choices."]],[["Learning objectives","Distinguish liberal, Marxist, mercantilist and institutional approaches; identify their leading thinkers; explain what each approach emphasizes; apply them to Nigerian policy debates."],["What political economy studies","Political economy investigates how power, laws, institutions and social groups shape production, exchange and distribution. It asks not only whether an economy grows but also who controls resources, who benefits and how collective decisions are made."],["Liberal political economy","Classical liberal thinkers such as Adam Smith emphasized specialization, competition and market coordination. David Ricardo developed the principle of comparative advantage: countries may gain from specialization even when one is more productive in many activities. Modern liberal approaches differ on regulation, public goods and market failures; they do not all argue for zero government."],["Marxist political economy","Karl Marx analyzed capitalism through ownership of the means of production, wage labour, class conflict and capital accumulation. Bourgeoisie refers to owners of capital; proletariat refers broadly to wage workers who sell labour. A Marxist question asks how profits, bargaining power and working conditions relate to ownership and production."],["Mercantilist and institutional perspectives","Mercantilist approaches historically emphasized national power, favorable trade balances and strategic state action. Institutional approaches focus on formal rules, enforcement, organizations and informal norms that shape incentives. Institutions help explain why similar resources can produce different economic outcomes."],["Nigerian comparison","Take a manufacturing firm in Nigeria. A liberal analysis may ask whether competition and reliable prices support investment. A Marxist analysis may examine labour conditions and distribution of profits. An institutional analysis may ask about electricity, contract enforcement and regulatory predictability. These perspectives can be combined to make a fuller diagnosis."],["Worked exam answer","Question: Compare liberalism and Marxism. Define each perspective; identify Smith and Marx; compare views of ownership, markets, class and state power; apply both to a Nigerian enterprise; acknowledge that each captures different mechanisms."]],[["Learning objectives","Define capitalism, socialism and mixed economy; explain ownership and allocation; distinguish nationalization from privatization; assess efficiency and equity trade-offs."],["Capitalism in practice","Capitalism generally features private ownership of productive assets, wage labour, market exchange and investment for returns. Prices can coordinate decentralized decisions, but competition may be imperfect. Market failures, inequality and unequal access to essential services create arguments for public intervention."],["Socialism and its varieties","Socialism is a family of approaches emphasizing social or public control of major productive resources and collective goals. Systems differ greatly: some rely heavily on central planning while others retain markets and cooperatives. Do not assume every socialist proposal eliminates all private property or market exchange."],["Mixed economies","Most contemporary economies mix private enterprise with public regulation, infrastructure, taxation and social services. Nigeria is commonly described as mixed because businesses operate alongside state institutions and public provision. The balance varies across sectors and over time."],["Privatization versus nationalization","Privatization transfers public assets or operations to private ownership. Potential gains include investment and efficiency, but results depend on competition and regulation. Nationalization transfers assets into public ownership, sometimes for strategic or distributional reasons. Public ownership also requires accountability and competent management."],["Nigerian policy case","Consider electricity provision or transport. Compare public investment, regulated private provision and mixed arrangements. Ask who funds infrastructure, how tariffs are set, whether low-income households can access services and how performance is measured."],["Worked exam answer","Question: Is a mixed economy preferable to pure capitalism or socialism? Define the three systems, compare ownership and coordination, discuss Nigerian examples, then evaluate efficiency, inclusion and accountability."]],[["Learning objectives","Distinguish growth from development; interpret GDP, HDI and inequality measures; explain structural transformation; discuss why oil revenue alone does not guarantee welfare."],["Growth is not development","Economic growth means an increase in real production over time, often measured using real GDP. Economic development is broader: improvements in health, education, capabilities, productive employment, security and opportunities. An economy may grow while many households experience little benefit."],["Measuring development","GDP measures economic output, not happiness or equal distribution. GDP per capita divides output by population but hides differences between people. The Human Development Index combines indicators of health, education and income. The Gini coefficient summarizes inequality; no single statistic tells the whole story."],["Structural transformation","Long-run development often involves shifting labour and resources from low-productivity activities into higher-productivity manufacturing and services while raising agricultural productivity. Skills, electricity, transport, credit and reliable institutions can support this transition."],["Human capabilities and inclusion","Amartya Sen's capabilities perspective asks what people are genuinely able to do and become. Access to schools, healthcare, security and economic participation matters beyond income. Inclusive development requires attention to gender, region, employment quality and poverty."],["Nigerian case: oil and livelihoods","Oil export earnings may boost national accounts, but the effect on households depends on employment, revenue management, public services and price stability. Evaluate whether revenue translates into reliable electricity, clinics, education, productive investment and broad-based opportunities."],["Worked exam answer","Question: Why is GDP growth an incomplete measure of development? Define GDP growth and development, explain HDI and inequality, use the Nigerian oil example, and conclude with a broader set of indicators."]],[["Learning objectives","Explain dependency theory; identify Frank, Amin and Prebisch; connect commodity dependence to development constraints; evaluate the theory critically."],["The central argument","Dependency theory argues that historical and ongoing relationships between powerful and weaker economies can constrain development. It emerged partly in response to the view that every country follows the same internal stages toward prosperity. It emphasizes unequal trade, finance, technology and patterns of ownership."],["Important thinkers","Andre Gunder Frank argued that the development of some regions and underdevelopment of others are historically connected. Samir Amin studied unequal accumulation and global hierarchies. Raúl Prebisch, a structuralist precursor rather than an identical dependency theorist, examined center–periphery trade problems."],["Mechanisms of dependence","Reliance on a few commodities can expose revenue to international price swings. Foreign technology, financing and market access may be costly or controlled externally. An enclave export sector may have weak supplier and employment links with the wider domestic economy."],["Nigerian case: oil dependence","Imagine a sharp fall in world oil prices. Export earnings and public revenues may decline, creating pressure on budgets, exchange rates and investment. Building domestic processing, competitive non-oil exports and stronger supplier networks can reduce some vulnerabilities, though each requires capable institutions."],["Criticisms and alternatives","Dependency approaches illuminate structural barriers but can underplay domestic governance, policy failures, differences between countries and successful industrial transitions. A strong analysis examines both international conditions and local choices instead of treating dependency as an unavoidable fate."],["Worked exam answer","Question: Assess dependency theory's relevance to Nigeria. Define the theory; introduce Frank and Amin; explain commodity and technology dependence; use oil price exposure; evaluate internal policy and diversification."]],[["Learning objectives","Distinguish colonialism and imperialism; explain indirect rule and extractive economies; analyze colonial legacies without overlooking post-independence agency."],["Colonialism and imperialism","Colonialism generally involves direct territorial administration or settlement by an outside power. Imperialism is a broader term for extending influence or domination, sometimes without formal territorial rule. The concepts overlap but are not identical."],["Administration and indirect rule","British colonial administration in parts of Nigeria used existing or appointed local authorities under indirect rule. Arrangements varied across regions and changed over time. These institutions affected taxation, political representation and relations between local communities and colonial officials."],["Economic organization","Colonial authorities and firms developed infrastructure, trade rules and administrative structures partly to facilitate export production and resource movement. Railways and ports could also provide wider benefits, but their routes and priorities often reflected colonial commercial interests."],["Intellectual perspectives","Walter Rodney examined the historical role of European expansion in African underdevelopment. Frantz Fanon explored colonial domination and liberation. Their analyses are influential perspectives, not substitutes for assessing specific historical evidence."],["Nigeria after independence","Nigeria became independent from Britain on 1 October 1960. Postcolonial outcomes reflect inherited institutions as well as later policies, social conflicts, global markets and domestic leadership. Avoid attributing every current problem solely to colonialism."],["Worked exam answer","Question: Discuss the economic effects of colonial rule in Nigeria. Define colonialism, explain export-oriented production and infrastructure, consider administrative legacies, and weigh continuity against post-independence choices."]],[["Learning objectives","Differentiate fiscal and monetary policy; identify market failures and public goods; explain how policy tools can address inflation, unemployment and development."],["Why governments intervene","Governments establish rules, enforce contracts, provide public services and address externalities. A pure public good is both non-rival and non-excludable; many services commonly called public are not pure public goods. Market failure can arise from externalities, market power, missing information or under-provision."],["Fiscal policy","Fiscal policy concerns public expenditure and taxation. Higher spending or lower taxes can stimulate demand in some conditions, while spending restraint or tax changes may affect inflation and debt. Outcomes depend on financing, implementation, capacity and the wider economy."],["Monetary policy","Central banks influence financial conditions using tools such as policy interest rates and liquidity management. In Nigeria, the Central Bank of Nigeria is responsible for monetary policy. Higher interest rates can help restrain inflationary pressures but may also make borrowing more expensive."],["Inflation and trade-offs","Inflation is a sustained rise in the general price level. Supply disruptions, currency movements and demand conditions can all matter. No single tool fixes every cause. Fiscal and monetary authorities may need coordination while maintaining clear institutional responsibilities."],["Nigerian case study","Suppose food prices rise after a transport disruption. Monetary tightening may reduce broad demand pressure, but fixing transport bottlenecks and supply constraints may be more directly relevant. Evaluate the policy mix rather than recommending one instrument automatically."],["Worked exam answer","Question: Compare fiscal and monetary policy in Nigeria. Define both, identify government and central bank roles, list tools, explain inflation trade-offs and give a practical Nigerian example."]],[["Learning objectives","Define globalization, FDI, tariffs and value chains; explain trade opportunities and vulnerabilities; evaluate regional integration using Nigerian examples."],["What globalization involves","Globalization refers to increasing cross-border links in production, trade, finance, information and movement. It is not a single policy: technology, business decisions, migration, treaties and national regulations all shape its form."],["Trade and comparative advantage","Comparative advantage suggests gains from specializing in activities with lower opportunity cost and exchanging with others. However, adjustment costs, weak infrastructure and unequal access to opportunity can prevent benefits from being shared evenly."],["FDI and value chains","Foreign direct investment usually involves a lasting ownership interest or influence in an enterprise abroad. It may bring capital, jobs and skills, but spillovers depend on domestic suppliers, labour practices, competition and institutions. Global value chains split production across locations."],["Tariffs and regional trade","Tariffs tax imports and can protect some domestic firms, but also raise costs for consumers and businesses using imported inputs. Regional integration aims to ease trade among participating economies. Nigerian firms need logistics, standards and productive capacity to benefit."],["Nigerian opportunities and risks","Cross-border markets can expand demand for Nigerian manufactured goods and services. At the same time, exchange-rate volatility, imported input costs and global supply interruptions can raise risks. Assess who gains, who loses and what complementary domestic policies are needed."],["Worked exam answer","Question: Evaluate globalization's effects on Nigeria. Define globalization, identify trade and investment channels, discuss opportunities and vulnerabilities, then propose measures for inclusive benefits."]]];function readSection(i){try{return Math.max(0,Math.min(6,Number(localStorage.getItem('pol225-reading-'+i))||0))}catch{return 0}}function rememberSection(i,n){try{localStorage.setItem('pol225-reading-'+i,String(n))}catch{}}function updateReading(n){const total=advancedLessons[chosen].length,pct=Math.round((n+1)/total*100);const a=document.getElementById('lessonReadingLabel'),b=document.getElementById('lessonReadingPercent'),c=document.getElementById('lessonReadingBar');if(a)a.textContent='Section '+(n+1)+' of '+total;if(b)b.textContent=pct+'% reached';if(c)c.style.width=pct+'%'}function jumpLesson(n){const el=document.getElementById('lesson-section-'+n);if(el){rememberSection(chosen,n);updateReading(n);el.scrollIntoView({behavior:'smooth',block:'start'})}}let lessonObserver=null;function watchLesson(){if(lessonObserver){lessonObserver.disconnect();lessonObserver=null}if(view!=='lesson'||lessonMode!=='deep'||typeof IntersectionObserver==='undefined')return;lessonObserver=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting){const n=Number(e.target.dataset.section);rememberSection(chosen,n);updateReading(n)}},{rootMargin:'-18% 0px -65% 0px'});document.querySelectorAll('.lesson-section[data-section]').forEach(el=>lessonObserver.observe(el))}const $=x=>document.getElementById(x);const escapeHtml=s=>String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));const safe=(s)=>escapeHtml(s);const navs=[['home','Home'],['chapters','Chapters'],['flashcards','Cards'],['mock','Mock exam'],['revision','Revision']];let view='home',chosen=0,answers={},submitted=false,flip=false,cardIndex=0,cardChapter=-1,exam=null,interval=null,examIndex=0,revisionIndex=-1,lessonMode='deep';let progress={done:[],scores:{},known:{},attempts:[]};try{const p=JSON.parse(localStorage.getItem('pol225-v16'));if(p&&Array.isArray(p.done))progress={...progress,...p}}catch{};const save=()=>{try{localStorage.setItem('pol225-v16',JSON.stringify(progress))}catch{}};const btn=(label,action,primary=false)=>'<button class="btn '+(primary?'primary':'')+'" data-act="'+action+'">'+label+'</button>';function go(v){view=v;location.hash=v;render();scrollTo(0,0)}function card(c,i){return '<article class="card"><span class="tag">Chapter '+(i+1)+'</span><h3>'+safe(c.title)+'</h3><p>'+safe(c.subtitle)+'</p><div class="row"><small class="muted">'+(progress.done.includes(c.id)?'✓ Completed':'7 in-depth sections · 5 quiz questions')+'</small>'+btn('Study →','lesson:'+i,true)+'</div></article>'}function nav(){for(const id of ['nav','mobile'])$(id).innerHTML=navs.map(([k,label])=>'<button data-go="'+k+'" class="'+(view===k?'active':'')+'">'+label+'</button>').join('');document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>go(b.dataset.go))}function render(){nav();let h='';if(view==='home'){h='<section class="hero"><span class="tag">Your political economy learning companion</span><h1>Understand the world.<br>Own your exam.</h1><p>Eight clear chapters, Nigeria-focused examples, self-check quizzes, flashcards and a timed mock examination. Learn complex ideas in easy English.</p>'+btn('Explore chapters','chapters')+' '+btn('Take mock exam','mock')+'</section><div class="stats"><div class="stat"><b>8</b><span>Chapters</span></div><div class="stat"><b>'+Math.round(progress.done.length/8*100)+'%</b><span>Completed</span></div><div class="stat"><b>'+progress.attempts.length+'</b><span>Mock attempts</span></div></div><h2 class="section-title">Your learning path</h2><div class="grid">'+chapters.map(card).join('')+'</div>'}else if(view==='chapters'){h='<h1 class="section-title">All eight chapters</h1><p class="muted">Start anywhere, and mark lessons complete as you learn.</p><div class="grid">'+chapters.map(card).join('')+'</div>'}else if(view==='lesson'){const c=chapters[chosen],sections=advancedLessons[chosen],savedSection=readSection(chosen);h='<div class="reading lesson-advanced">'+btn('← All chapters','chapters')+'<div class="lesson-intro"><p class="tag">Chapter '+c.id+' · POL225</p><h1>'+safe(c.title)+'</h1><p class="muted">'+safe(c.subtitle)+'</p><p>Understand the ideas, explore Nigerian examples, and practise explaining what you learn.</p></div><div class="lesson-modes">'+btn('In-depth lesson'+(lessonMode==='deep'?' ✓':''),'lessonmode:deep',lessonMode==='deep')+btn('Quick overview'+(lessonMode==='quick'?' ✓':''),'lessonmode:quick',lessonMode==='quick')+'</div>'+(lessonMode==='deep'?'<div class="lesson-reading-status" aria-live="polite"><div><strong id="lessonReadingLabel">Section '+(savedSection+1)+' of '+sections.length+'</strong><span id="lessonReadingPercent">'+Math.round((savedSection+1)/sections.length*100)+'% reached</span></div><div class="progress"><i id="lessonReadingBar" style="width:'+((savedSection+1)/sections.length*100)+'%"></i></div></div>'+(savedSection>0?'<div class="lesson-resume">'+btn('↪ Continue at section '+(savedSection+1),'lessonjump:'+savedSection,true)+'</div>':'')+'<details class="lesson-outline"><summary>Inside this chapter · '+sections.length+' sections <span>Show / hide</span></summary><ol>'+sections.map((x,i)=>'<li><button type="button" class="lesson-jump" data-act="lessonjump:'+i+'">'+safe(x[0])+'</button></li>').join('')+'</ol></details>'+sections.map((x,i)=>{const sentences=x[1].match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[x[1]],mid=Math.ceil(sentences.length/2);return '<section class="panel lesson-section" id="lesson-section-'+i+'" data-section="'+i+'"><span class="tag">Section '+(i+1)+' / '+sections.length+'</span><h2>'+safe(x[0])+'</h2><p>'+safe(sentences.slice(0,mid).join(' ').trim())+'</p>'+(mid<sentences.length?'<p>'+safe(sentences.slice(mid).join(' ').trim())+'</p>':'')+'<details class="lesson-reflect"><summary>Check your understanding</summary><p>In your own words, explain '+safe(x[0].toLowerCase())+' and connect it to the chapter topic. What Nigerian example or limitation could you discuss?</p></details><div class="lesson-section-next">'+(i>0?btn('← Previous section','lessonjump:'+(i-1)):'')+(i<sections.length-1?btn('Next section →','lessonjump:'+(i+1),true):btn('Finish lesson ↓','lessonfinish',true))+'</div></section>'}).join(''):'<div class="lesson-outline lesson-quick-label"><strong>Chapter at a glance</strong></div>'+c.sections.map(x=>'<section class="panel lesson-section"><h2>'+safe(x.title)+'</h2><p>'+safe(x.body)+'</p></section>').join(''))+'<div class="panel lesson-completion" id="lesson-completion"><h2>Finish this chapter</h2><p>Review the main ideas, then take the quiz. Mark this chapter complete when you are ready.</p><div class="lesson-actions">'+btn(progress.done.includes(c.id)?'✓ Chapter completed':'Mark chapter complete','complete',true)+btn('Take chapter quiz','quiz')+btn('Revision sheet','rev:'+chosen)+'</div></div><div class="lesson-actions">'+(chosen>0?btn('← Previous chapter','lesson:'+(chosen-1)):'')+(chosen<7?btn('Next chapter →','lesson:'+(chosen+1),true):'')+'</div></div>'}else if(view==='quiz'){let c=chapters[chosen];h='<div class="reading">'+btn('← Back to chapter','lesson:'+chosen)+'<h1>'+safe(c.title)+' · Quiz</h1><p class="muted">Answer all five questions; explanations appear after grading.</p>'+c.quiz.map((q,i)=>'<section class="panel"><h2>'+(i+1)+'. '+safe(q.question)+'</h2>'+q.options.map((o,j)=>'<label class="option"><input type="radio" name="quiz'+i+'" value="'+j+'" '+(answers[i]===j?'checked':'')+' '+(submitted?'disabled':'')+'> '+safe(o)+'</label>').join('')+(submitted?'<div class="feedback '+(answers[i]===q.answer?'':'bad')+'">'+(answers[i]===q.answer?'Correct!':'Correct answer: '+safe(q.options[q.answer]))+'</div>':'')+'</section>').join('')+(submitted?'<div class="panel"><h2>Score: '+c.quiz.filter((q,i)=>answers[i]===q.answer).length+'/5</h2>'+btn('Try again','retake',true)+'</div>':btn('Grade chapter quiz','grade',true))+'</div>'}else if(view==='flashcards'){const all=flashcardBank.flatMap((deck,ci)=>deck.map((item,idx)=>({...item,chapterIndex:ci,originalIndex:idx})));const deck=cardChapter===-1?all:all.filter(q=>q.chapterIndex===cardChapter);cardIndex=((cardIndex%deck.length)+deck.length)%deck.length;const q=deck[cardIndex],key='flash-v2-'+(q.chapterIndex+1)+':'+q.originalIndex,learned=deck.filter(x=>progress.known['flash-v2-'+(x.chapterIndex+1)+':'+x.originalIndex]).length;h='<div class="reading flash-layout"><div class="flash-header"><div><p class="tag">POL225 · Active recall</p><h1>Flashcard practice</h1><p class="muted">40 original study questions covering all eight chapters. Select all chapters or focus on one topic.</p></div><div class="flash-total"><strong>40</strong><span>Study cards</span></div></div><div class="flash-toolbar"><label for="cardSelect">Study deck</label><select id="cardSelect" class="flash-select"><option value="-1" '+(cardChapter===-1?'selected':'')+'>All chapters · 40 questions</option>'+chapters.map((x,i)=>'<option value="'+i+'" '+(i===cardChapter?'selected':'')+'>'+safe(x.title)+' · 5</option>').join('')+'</select></div><div class="flash-metrics"><span>Question <strong>'+(cardIndex+1)+'</strong> of '+deck.length+'</span><span><strong>'+learned+'</strong> learned</span></div><div class="progress" role="progressbar" aria-label="Card position" aria-valuemin="0" aria-valuemax="'+deck.length+'" aria-valuenow="'+(cardIndex+1)+'"><i style="width:'+((cardIndex+1)/deck.length*100)+'%"></i></div><p class="flash-topic">'+safe(chapters[q.chapterIndex].title)+' · '+(progress.known[key]?'✓ Learned':'Needs review')+'</p><button class="flash flash-premium '+(flip?'revealed':'')+'" data-act="flip" aria-label="'+(flip?'Show question':'Reveal answer')+'"><span class="flash-eyebrow">'+(flip?'ANSWER':'QUESTION')+'</span><span class="flash-question">'+safe(flip?q.answer:q.question)+'</span><span class="flash-hint">'+(flip?'Tap to show question':'Tap card to reveal answer')+'</span></button><div class="flash-controls">'+btn('← Previous','cardprev')+btn(progress.known[key]?'✓ Learned':'✓ Mark learned','known',true)+btn('Next →','cardnext')+'</div><div class="flash-bottom">'+btn('↻ Restart deck','cardreset')+'<span class="muted">Your learned cards stay saved on this device.</span></div></div>'}else if(view==='revision'){h='<div class="reading"><p class="tag">POL225 · Exam preparation</p><h1>Revision study sheets</h1><p class="muted">Study the definitions, understand the theories, connect them to Nigeria, and practise structured exam answers.</p><label for="revisionSelect">Choose a chapter</label><select id="revisionSelect" class="flash-select"><option value="-1">All eight chapters</option>'+chapters.map((c,i)=>'<option value="'+i+'" '+(revisionIndex===i?'selected':'')+'>Chapter '+c.id+' · '+safe(c.title)+'</option>').join('')+'</select>'+(revisionIndex<0?'<div class="grid revision-grid">'+chapters.map((c,i)=>'<section class="card"><span class="tag">Chapter '+c.id+'</span><h3>'+safe(c.title)+'</h3><p>'+safe(c.subtitle)+'</p><p class="muted">5 definitions · '+revisionDeep[i].thinkers.length+' thinkers · Nigerian examples · 3 exam prompts</p>'+btn('Open study sheet','rev:'+i,true)+'</section>').join('')+'</div>':(()=>{const c=chapters[revisionIndex],d=revisionDeep[revisionIndex];return '<div class="revision-detail"><div class="panel"><p class="tag">Chapter '+c.id+' of 8</p><h2>'+safe(c.title)+'</h2><p class="muted">'+safe(c.subtitle)+'</p></div><section class="panel"><h3>1. Key concepts and simple definitions</h3><dl class="revision-definitions">'+d.concepts.map(([term,definition])=>'<div><dt>'+safe(term)+'</dt><dd>'+safe(definition)+'</dd></div>').join('')+'</dl></section><section class="panel"><h3>2. Major theorists and contributions</h3>'+d.thinkers.map(([name,contribution])=>'<p><strong>'+safe(name)+':</strong> '+safe(contribution)+'</p>').join('')+'</section><section class="panel"><h3>3. Nigerian examples</h3>'+d.examples.map(x=>'<p class="revision-example">'+safe(x)+'</p>').join('')+'</section><section class="panel"><h3>4. Compare and contrast</h3>'+d.comparison.map(x=>'<p>'+safe(x)+'</p>').join('')+'</section><section class="panel"><h3>5. Likely exam-style practice questions</h3><p class="muted">Practice prompts, not predictions of the actual examination.</p><ol>'+d.questions.map(q=>'<li>'+safe(q)+'</li>').join('')+'</ol></section><section class="panel revision-answer"><h3>How to structure your answer</h3><p>'+safe(d.answer)+'</p><p class="muted">Use: definition → explanation → Nigerian application → critical evaluation → conclusion.</p></section><div class="revision-actions">'+btn('← All revision sheets','rev:-1')+btn('Study full chapter','lesson:'+revisionIndex,true)+(revisionIndex<7?btn('Next chapter →','rev:'+(revisionIndex+1)):'')+'</div></div>'})())+'</div>'}else if(view==='mock'){h=renderMock()}$('app').innerHTML=h;document.querySelectorAll('[data-act]').forEach(b=>b.onclick=()=>act(b.dataset.act));document.querySelectorAll('input[name^="quiz"]').forEach(e=>e.onchange=()=>answers[Number(e.name.slice(4))]=Number(e.value));document.querySelectorAll('input[name^="exam"]').forEach(e=>{const record=()=>{if(exam&&!exam.finished){exam.answers[Number(e.name.slice(4))]=Number(e.value);persistExam();const counter=document.getElementById('examAnswered');if(counter)counter.textContent=Object.keys(exam.answers).length;const bar=document.getElementById('examProgress');if(bar)bar.style.width=(Object.keys(exam.answers).length/exam.questions.length*100)+'%'}};e.onchange=record;e.onclick=record});if($('revisionSelect'))$('revisionSelect').onchange=e=>{revisionIndex=Number(e.target.value);render()};if($('cardSelect'))$('cardSelect').onchange=e=>{cardChapter=Number(e.target.value);cardIndex=0;flip=false;render()};updateTimer();watchLesson()}function shuffledQuestions(){const bank=chapters.flatMap((c,i)=>{const base=c.quiz.map(q=>({...q,chapter:c.title}));const review=flashcardBank[i].map((q,j)=>{const wrong=flashcardBank[i].filter((_,k)=>k!==j).map(x=>x.answer).slice(0,3);const options=[q.answer,...wrong];const shift=(i+j)%4;for(let k=0;k<shift;k++)options.push(options.shift());return {question:q.question,options,answer:options.indexOf(q.answer),chapter:c.title}});const more=additionalExamQuestions[i].map(q=>({...q,chapter:c.title}));return [...base,...review,...more]});const unique=new Map(bank.map(q=>[q.chapter+'|'+q.question.toLowerCase(),q]));return Array.from(unique.values()).slice(0,100).sort(()=>Math.random()-.5)}function persistExam(){try{sessionStorage.setItem('pol225-exam',JSON.stringify(exam))}catch{}}function startExam(){examIndex=0;exam={questions:shuffledQuestions(),answers:{},ends:Date.now()+100*60000,finished:false};persistExam();if(interval)clearInterval(interval);interval=setInterval(()=>{if(exam&&!exam.finished&&Date.now()>=exam.ends){finishExam()}else updateTimer()},1000);render()}function updateTimer(){if(!exam||exam.finished)return;let n=$('countdown');if(n){let t=Math.max(0,Math.ceil((exam.ends-Date.now())/1000));n.textContent=String(Math.floor(t/60)).padStart(2,'0')+':'+String(t%60).padStart(2,'0')}if(Date.now()>=exam.ends)finishExam()}function finishExam(){if(!exam||exam.finished)return;exam.finished=true;exam.finishedAt=Date.now();exam.score=exam.questions.filter((q,i)=>exam.answers[i]===q.answer).length;progress.attempts.push({date:exam.finishedAt,score:exam.score,total:exam.questions.length});save();persistExam();if(interval)clearInterval(interval);render()}function renderMock(){if(!exam)return '<div class="reading"><p class="tag">Timed assessment</p><h1>POL225 Mock Examination</h1><div class="panel"><h2>100 questions · 100 minutes</h2><p>100 multiple-choice questions covering all eight chapters. The examination submits automatically when time runs out. You can review every correct answer at the end.</p>'+btn('Begin exam','examstart',true)+'</div>'+(progress.attempts.length?'<p class="muted">Previous score: '+progress.attempts.at(-1).score+'/'+progress.attempts.at(-1).total+'</p>':'')+'</div>';if(exam.finished)return '<div class="reading"><p class="tag">Results</p><h1>Mock exam score: '+exam.score+'/'+exam.questions.length+'</h1><div class="panel"><p>'+Math.round(exam.score/exam.questions.length*100)+'% · Review answers and retry when ready.</p>'+btn('New examination','examstart',true)+'</div>'+exam.questions.map((q,i)=>'<div class="panel"><span class="tag">'+safe(q.chapter)+'</span><h2>'+(i+1)+'. '+safe(q.question)+'</h2><p class="'+(exam.answers[i]===q.answer?'':'error')+'">Your answer: '+safe(q.options[exam.answers[i]]||'Not answered')+'</p><p><strong>Correct:</strong> '+safe(q.options[q.answer])+'</p></div>').join('')+'</div>';return '<div class="reading exam-layout"><div class="sticky exam-top"><strong>POL225 Mock Exam</strong><div class="timer" id="countdown">100:00</div>'+btn('Submit exam','examsubmit',true)+'</div><div class="exam-status"><span>Question '+(examIndex+1)+' of '+exam.questions.length+'</span><span>Answered <strong id="examAnswered">'+Object.keys(exam.answers).length+'</strong> / '+exam.questions.length+'</span></div><div class="progress"><i id="examProgress" style="width:'+Object.keys(exam.answers).length/exam.questions.length*100+'%"></i></div><section class="panel exam-question"><span class="tag">'+safe(exam.questions[examIndex].chapter)+'</span><h2>'+(examIndex+1)+'. '+safe(exam.questions[examIndex].question)+'</h2>'+exam.questions[examIndex].options.map((o,j)=>'<label class="option"><input type="radio" name="exam'+examIndex+'" value="'+j+'" '+(exam.answers[examIndex]===j?'checked':'')+'> '+safe(o)+'</label>').join('')+'</section><div class="exam-actions">'+btn('← Previous','examprev')+btn('Next →','examnext',true)+'</div><div class="panel exam-navigator"><h3>Question navigator</h3><p class="muted">Select any question. Highlighted numbers have saved answers.</p><div class="exam-numbers">'+exam.questions.map((q,i)=>'<button type="button" class="exam-number '+(i===examIndex?'current ':'')+(exam.answers[i]!==undefined?'answered':'')+'" data-act="examgoto:'+i+'">'+(i+1)+'</button>').join('')+'</div></div></div>'}function act(a){if(a==='chapters'||a==='mock')return go(a);if(a.startsWith('rev:')){revisionIndex=Number(a.split(':')[1]);return go('revision')}if(a.startsWith('examgoto:')){examIndex=Number(a.split(':')[1]);render();return}if(a==='examprev'||a==='examnext'){examIndex=Math.max(0,Math.min(exam.questions.length-1,examIndex+(a==='examprev'?-1:1)));render();return}if(a.startsWith('lessonjump:')){jumpLesson(Number(a.split(':')[1]));return}if(a==='lessonfinish'){document.getElementById('lesson-completion')?.scrollIntoView({behavior:'smooth',block:'start'});return}if(a.startsWith('lessonmode:')){lessonMode=a.split(':')[1];render();return}if(a.startsWith('lesson:')){chosen=Number(a.split(':')[1]);return go('lesson')}if(a==='complete'){if(!progress.done.includes(chapters[chosen].id))progress.done.push(chapters[chosen].id);save()}else if(a==='quiz'){answers={};submitted=false;return go('quiz')}else if(a==='grade'){if(Object.keys(answers).length!==5){alert('Answer all five questions first.');return}submitted=true;progress.scores[chapters[chosen].id]=chapters[chosen].quiz.filter((q,i)=>answers[i]===q.answer).length;save()}else if(a==='retake'){answers={};submitted=false}else if(a==='flip'){flip=!flip}else if(a==='cardprev'){cardIndex=(cardIndex+(cardChapter===-1?39:4))%(cardChapter===-1?40:5);flip=false}else if(a==='cardnext'){cardIndex=(cardIndex+1)%(cardChapter===-1?40:5);flip=false}else if(a==='cardreset'){cardIndex=0;flip=false}else if(a==='known'){const d=flashcardBank.flatMap((items,ci)=>items.map((item,idx)=>({chapterIndex:ci,originalIndex:idx})));const q=(cardChapter===-1?d:d.filter(x=>x.chapterIndex===cardChapter))[cardIndex];progress.known['flash-v2-'+(q.chapterIndex+1)+':'+q.originalIndex]=true;save();cardIndex=(cardIndex+1)%(cardChapter===-1?40:5);flip=false}else if(a==='examstart')return startExam();else if(a==='examsubmit'){if(confirm('Submit the examination now?'))finishExam();return}render()}try{const old=JSON.parse(sessionStorage.getItem('pol225-exam'));if(old&&Array.isArray(old.questions)&&old.questions.length===100){exam=old;if(!old.finished){interval=setInterval(updateTimer,1000);if(Date.now()>=old.ends)finishExam()}}}catch{}window.onhashchange=()=>{const h=location.hash.substring(1);if(navs.some(x=>x[0]===h))go(h)};if(navs.some(x=>x[0]===location.hash.substring(1)))view=location.hash.substring(1);render();
+const chapters = [
+  {
+    id: 1,
+    title: "World-Systems Perspective",
+    subtitle: "How wealth and power are organized globally",
+    sections: [
+      {
+        title: "Main idea",
+        body: "Immanuel Wallerstein developed modern world-systems analysis. It studies the linked world economy rather than isolated countries.",
+      },
+      {
+        title: "How it works",
+        body: "Core economies dominate profitable production; peripheral economies have weaker bargaining power; the semi-periphery combines elements of both.",
+      },
+      {
+        title: "Nigerian or real-world connection",
+        body: "Nigeria exports crude oil, while refining, shipping, finance and high-value services can happen elsewhere.",
+      },
+      {
+        title: "Critical thinking",
+        body: "The framework helps explain inequality, but domestic policy and institutions also matter.",
+      },
+    ],
+    quiz: [
+      {
+        question: "Who developed modern world-systems analysis?",
+        options: [
+          "Immanuel Wallerstein",
+          "Adam Smith",
+          "John Locke",
+          "David Ricardo",
+        ],
+        answer: 0,
+      },
+      {
+        question: "Which zone has a mixed position?",
+        options: ["Core", "Semi-periphery", "Periphery", "Empire"],
+        answer: 1,
+      },
+      {
+        question: "What is the main unit of analysis?",
+        options: [
+          "A single town",
+          "The world-system",
+          "One household",
+          "One market",
+        ],
+        answer: 1,
+      },
+      {
+        question: "What describes core activity?",
+        options: [
+          "Profitable, powerful production",
+          "Only farming",
+          "No trade",
+          "Always low wages",
+        ],
+        answer: 0,
+      },
+      {
+        question: "Which is a valid limitation?",
+        options: [
+          "It ignores all history",
+          "It may understate domestic policy",
+          "It denies international trade",
+          "It excludes economics",
+        ],
+        answer: 1,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Major Approaches to Political Economy",
+    subtitle: "Different explanations for wealth and power",
+    sections: [
+      {
+        title: "Main idea",
+        body: "Liberal approaches emphasize markets, competition, private enterprise, and rules governing exchange.",
+      },
+      {
+        title: "How it works",
+        body: "Marxist approaches examine class, ownership, labor, power, and conflict between owners and workers.",
+      },
+      {
+        title: "Nigerian or real-world connection",
+        body: "Dependency approaches focus on unequal international economic relationships; world-systems analysis studies the global structure.",
+      },
+      {
+        title: "Critical thinking",
+        body: "Each perspective illuminates some causes, but no single theory fully explains every economy.",
+      },
+    ],
+    quiz: [
+      {
+        question: "Which approach emphasizes market competition?",
+        options: ["Marxist", "Liberal", "Dependency", "Mercantilist"],
+        answer: 1,
+      },
+      {
+        question: "Who is central to Marxist thought?",
+        options: ["Karl Marx", "Adam Smith", "John Locke", "Max Weber"],
+        answer: 0,
+      },
+      {
+        question: "The proletariat are chiefly...",
+        options: ["Factory owners", "Wage earners", "Landlords", "Ministers"],
+        answer: 1,
+      },
+      {
+        question: "Dependency theory highlights...",
+        options: [
+          "Only election systems",
+          "Unequal economic reliance",
+          "Only weather",
+          "Population counts",
+        ],
+        answer: 1,
+      },
+      {
+        question: "An academic approach is...",
+        options: [
+          "A way of explaining a problem",
+          "An election",
+          "A tax receipt",
+          "A trade licence",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Capitalism and Socialism",
+    subtitle: "Comparing economic systems",
+    sections: [
+      {
+        title: "Main idea",
+        body: "Capitalism relies heavily on private ownership, markets, profits, and investment.",
+      },
+      {
+        title: "How it works",
+        body: "Socialism emphasizes social or public ownership or control of important productive resources and distribution goals.",
+      },
+      {
+        title: "Nigerian or real-world connection",
+        body: "Most real economies are mixed, combining private enterprise with government services and regulation.",
+      },
+      {
+        title: "Critical thinking",
+        body: "Comparisons should consider incentives, inequality, freedom, productivity, and how policies work in practice.",
+      },
+    ],
+    quiz: [
+      {
+        question: "Under capitalism, productive assets are often...",
+        options: [
+          "Privately owned",
+          "Always state owned",
+          "Never owned",
+          "Only foreign owned",
+        ],
+        answer: 0,
+      },
+      {
+        question: "Socialism generally emphasizes...",
+        options: [
+          "Only monopoly profits",
+          "Social or public control",
+          "No public services",
+          "No workers",
+        ],
+        answer: 1,
+      },
+      {
+        question: "Most modern economies are...",
+        options: [
+          "Purely capitalist",
+          "Purely socialist",
+          "Mixed",
+          "Without markets",
+        ],
+        answer: 2,
+      },
+      {
+        question: "Profit incentives are especially associated with...",
+        options: [
+          "Capitalist markets",
+          "No economic system",
+          "Colonial rule only",
+          "Elections",
+        ],
+        answer: 0,
+      },
+      {
+        question: "A fair comparison considers...",
+        options: [
+          "Only labels",
+          "Only slogans",
+          "Outcomes and institutions",
+          "Only population",
+        ],
+        answer: 2,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Development and Underdevelopment",
+    subtitle: "Why living standards differ",
+    sections: [
+      {
+        title: "Main idea",
+        body: "Economic development includes improvements in livelihoods, health, education, productivity, and opportunity.",
+      },
+      {
+        title: "How it works",
+        body: "GDP growth matters, but does not alone show how benefits are shared across society.",
+      },
+      {
+        title: "Nigerian or real-world connection",
+        body: "Structural challenges can include weak infrastructure, political instability, poor institutions, and unequal global trade.",
+      },
+      {
+        title: "Critical thinking",
+        body: "Evaluate development using several indicators, and distinguish causes backed by evidence from contested claims.",
+      },
+    ],
+    quiz: [
+      {
+        question: "Development is best assessed through...",
+        options: [
+          "GDP alone",
+          "Several social and economic measures",
+          "Exports alone",
+          "Land size",
+        ],
+        answer: 1,
+      },
+      {
+        question: "GDP growth always means equal prosperity.",
+        options: ["True", "False", "Only in cities", "Only in Africa"],
+        answer: 1,
+      },
+      {
+        question: "Which is a development indicator?",
+        options: [
+          "Life expectancy",
+          "Flag design",
+          "Number of holidays",
+          "Country name",
+        ],
+        answer: 0,
+      },
+      {
+        question: "Poor infrastructure can...",
+        options: [
+          "Raise transport costs",
+          "Guarantee growth",
+          "End unemployment",
+          "Replace education",
+        ],
+        answer: 0,
+      },
+      {
+        question: "A sound explanation uses...",
+        options: [
+          "Only opinion",
+          "Evidence and multiple causes",
+          "One slogan",
+          "No comparisons",
+        ],
+        answer: 1,
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Dependency Theory",
+    subtitle: "How international reliance affects choices",
+    sections: [
+      {
+        title: "Main idea",
+        body: "Dependency theorists argue that poorer economies can become structurally reliant on richer countries for markets, technology, credit, and capital.",
+      },
+      {
+        title: "How it works",
+        body: "Andre Gunder Frank and Samir Amin are influential thinkers associated with dependency perspectives.",
+      },
+      {
+        title: "Nigerian or real-world connection",
+        body: "Reliance on one export commodity can expose government revenue to volatile global prices.",
+      },
+      {
+        title: "Critical thinking",
+        body: "A criticism is that dependency arguments can overlook internal reforms and successful industrialization experiences.",
+      },
+    ],
+    quiz: [
+      {
+        question: "Dependency theory studies...",
+        options: [
+          "Trade only within villages",
+          "Unequal external economic reliance",
+          "Voting age",
+          "Weather",
+        ],
+        answer: 1,
+      },
+      {
+        question: "Which thinker is linked to dependency?",
+        options: ["Andre Gunder Frank", "Isaac Newton", "Plato", "John Locke"],
+        answer: 0,
+      },
+      {
+        question: "Relying on one export can increase...",
+        options: [
+          "Price vulnerability",
+          "Economic certainty",
+          "Political neutrality",
+          "Literacy automatically",
+        ],
+        answer: 0,
+      },
+      {
+        question: "A common criticism is...",
+        options: [
+          "It may overlook domestic policy",
+          "It denies history",
+          "It rejects all trade data",
+          "It is geography",
+        ],
+        answer: 0,
+      },
+      {
+        question: "Diversifying production can...",
+        options: [
+          "Reduce reliance on one commodity",
+          "Guarantee equality",
+          "End inflation instantly",
+          "Eliminate government",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Colonialism and Imperialism",
+    subtitle: "How historical control shaped economies",
+    sections: [
+      {
+        title: "Main idea",
+        body: "Colonialism involves direct foreign control or settlement over territories and their institutions.",
+      },
+      {
+        title: "How it works",
+        body: "Imperialism is broader domination or influence exercised through political, economic, or military power.",
+      },
+      {
+        title: "Nigerian or real-world connection",
+        body: "Colonial systems often reorganized infrastructure, agriculture, labor, and trade toward imperial interests.",
+      },
+      {
+        title: "Critical thinking",
+        body: "Historical effects vary, and present economic outcomes also reflect choices made after independence.",
+      },
+    ],
+    quiz: [
+      {
+        question: "Colonialism typically involves...",
+        options: [
+          "Direct external rule",
+          "Local elections only",
+          "Currency exchange",
+          "Population statistics",
+        ],
+        answer: 0,
+      },
+      {
+        question: "Imperialism is...",
+        options: [
+          "Broader forms of domination",
+          "Only farming",
+          "A tax rate",
+          "Always direct settlement",
+        ],
+        answer: 0,
+      },
+      {
+        question: "Colonial export economies often focused on...",
+        options: [
+          "Imperial market needs",
+          "Only local food",
+          "No international trade",
+          "Digital services",
+        ],
+        answer: 0,
+      },
+      {
+        question: "Nigeria gained independence in...",
+        options: ["1960", "1979", "1999", "1945"],
+        answer: 0,
+      },
+      {
+        question: "Which statement is balanced?",
+        options: [
+          "History and later policy both matter",
+          "Only one factor matters",
+          "All colonies identical",
+          "No historical effects",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "The State and the Economy",
+    subtitle: "What governments do in markets",
+    sections: [
+      {
+        title: "Main idea",
+        body: "Governments create laws, provide infrastructure and public goods, collect taxes, and regulate economic activity.",
+      },
+      {
+        title: "How it works",
+        body: "Fiscal policy uses spending and taxation; monetary policy influences credit, money conditions, and interest rates.",
+      },
+      {
+        title: "Nigerian or real-world connection",
+        body: "Market failures such as pollution, monopoly power, and inadequate public goods can justify intervention.",
+      },
+      {
+        title: "Critical thinking",
+        body: "Policy choices create trade-offs; effective oversight and capable institutions are vital.",
+      },
+    ],
+    quiz: [
+      {
+        question: "Fiscal policy involves...",
+        options: [
+          "Taxes and government spending",
+          "Only rainfall",
+          "Only courts",
+          "Population",
+        ],
+        answer: 0,
+      },
+      {
+        question: "Monetary policy concerns...",
+        options: [
+          "Money and interest-rate conditions",
+          "Road repairs only",
+          "Elections only",
+          "Imports only",
+        ],
+        answer: 0,
+      },
+      {
+        question: "An example of a public good is...",
+        options: ["Street lighting", "A private phone", "A meal", "A shirt"],
+        answer: 0,
+      },
+      {
+        question: "Regulation can respond to...",
+        options: [
+          "Monopoly power",
+          "Only birthdays",
+          "No market activity",
+          "Only agriculture",
+        ],
+        answer: 0,
+      },
+      {
+        question: "Strong institutions can improve...",
+        options: [
+          "Policy implementation",
+          "Weather",
+          "Geography",
+          "Mineral formation",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Globalization and the World Economy",
+    subtitle: "How economies connect across borders",
+    sections: [
+      {
+        title: "Main idea",
+        body: "Globalization describes growing cross-border flows of goods, capital, information, people, and ideas.",
+      },
+      {
+        title: "How it works",
+        body: "Global value chains divide production among firms and countries; design and branding may capture high returns.",
+      },
+      {
+        title: "Nigerian or real-world connection",
+        body: "Benefits can include knowledge transfer, larger markets, and new jobs; risks include shocks, unfair bargaining, and uneven gains.",
+      },
+      {
+        title: "Critical thinking",
+        body: "Policy debates concern openness, labor rights, taxation, resilience, and national economic choices.",
+      },
+    ],
+    quiz: [
+      {
+        question: "Globalization increases...",
+        options: [
+          "Cross-border connections",
+          "National isolation",
+          "Only local sales",
+          "No migration",
+        ],
+        answer: 0,
+      },
+      {
+        question: "A global value chain involves...",
+        options: [
+          "Production across locations",
+          "One village only",
+          "No businesses",
+          "Only government",
+        ],
+        answer: 0,
+      },
+      {
+        question: "One possible benefit is...",
+        options: [
+          "Access to larger markets",
+          "Guaranteed equality",
+          "No economic shocks",
+          "No competition",
+        ],
+        answer: 0,
+      },
+      {
+        question: "One possible risk is...",
+        options: [
+          "Exposure to external shocks",
+          "No imports",
+          "No trade",
+          "No investment",
+        ],
+        answer: 0,
+      },
+      {
+        question: "Who may capture more value?",
+        options: [
+          "Firms controlling design and brands",
+          "Only raw-material suppliers",
+          "Every actor equally",
+          "No one",
+        ],
+        answer: 0,
+      },
+    ],
+  },
+];
+const flashcardBank = [
+  [
+    {
+      id: "c1-1",
+      question: "What is a world-system?",
+      answer:
+        "A historically connected economy with a division of labour across regions.",
+    },
+    {
+      id: "c1-2",
+      question: "What is the core in world-systems theory?",
+      answer:
+        "Places concentrating high-return activities and strong economic power.",
+    },
+    {
+      id: "c1-3",
+      question: "What is the periphery?",
+      answer:
+        "Places often concentrated in lower-return activities with weaker bargaining power.",
+    },
+    {
+      id: "c1-4",
+      question: "What is the semi-periphery?",
+      answer:
+        "An intermediate zone mixing core and peripheral production processes.",
+    },
+    {
+      id: "c1-5",
+      question: "How can Nigerian crude oil illustrate commodity chains?",
+      answer:
+        "Extraction may occur in Nigeria while refining, branding and profits accrue elsewhere.",
+    },
+  ],
+  [
+    {
+      id: "c2-1",
+      question: "What does economic liberalism emphasize?",
+      answer:
+        "Markets, private enterprise, competition and institutions supporting exchange.",
+    },
+    {
+      id: "c2-2",
+      question: "Who wrote The Wealth of Nations?",
+      answer: "Adam Smith, published in 1776.",
+    },
+    {
+      id: "c2-3",
+      question: "What is the Marxist idea of class conflict?",
+      answer:
+        "Conflict between groups with different positions in ownership and production.",
+    },
+    {
+      id: "c2-4",
+      question: "What is mercantilism?",
+      answer:
+        "An approach historically emphasizing state power and trade advantages.",
+    },
+    {
+      id: "c2-5",
+      question: "How do approaches differ in explaining poverty?",
+      answer:
+        "They emphasize different mixes of markets, class, institutions and global power.",
+    },
+  ],
+  [
+    {
+      id: "c3-1",
+      question: "What are the means of production?",
+      answer:
+        "Assets used to produce goods and services, such as factories and machinery.",
+    },
+    {
+      id: "c3-2",
+      question: "What is private ownership?",
+      answer: "Individuals or firms hold rights over productive property.",
+    },
+    {
+      id: "c3-3",
+      question: "What is public ownership?",
+      answer: "The state or community owns or controls productive assets.",
+    },
+    {
+      id: "c3-4",
+      question: "What is a mixed economy?",
+      answer:
+        "An economy combining private enterprise with public services and regulation.",
+    },
+    {
+      id: "c3-5",
+      question: "Why is Nigeria described as a mixed economy?",
+      answer:
+        "Private firms operate alongside state-owned enterprises and public services.",
+    },
+  ],
+  [
+    {
+      id: "c4-1",
+      question: "How is development different from GDP growth?",
+      answer:
+        "Development includes health, education and opportunity, not just output.",
+    },
+    {
+      id: "c4-2",
+      question: "What does HDI measure?",
+      answer: "A composite of health, education and income dimensions.",
+    },
+    {
+      id: "c4-3",
+      question: "What is underdevelopment?",
+      answer: "Persistent limits on productive capacity and human well-being.",
+    },
+    {
+      id: "c4-4",
+      question: "How can unreliable electricity affect firms?",
+      answer: "It raises operating costs and can reduce productivity.",
+    },
+    {
+      id: "c4-5",
+      question: "What is structural transformation?",
+      answer:
+        "A shift of work and output toward more productive economic activities.",
+    },
+  ],
+  [
+    {
+      id: "c5-1",
+      question: "What is dependency theory's main argument?",
+      answer:
+        "Unequal international ties can constrain poorer economies' development.",
+    },
+    {
+      id: "c5-2",
+      question: "Who was Andre Gunder Frank?",
+      answer: "A prominent scholar associated with dependency theory.",
+    },
+    {
+      id: "c5-3",
+      question: "Who was Samir Amin?",
+      answer: "A political economist who studied unequal global accumulation.",
+    },
+    {
+      id: "c5-4",
+      question: "What is primary-commodity dependence?",
+      answer: "Reliance on exporting raw goods such as crude oil or cocoa.",
+    },
+    {
+      id: "c5-5",
+      question: "What is a major criticism of dependency theory?",
+      answer:
+        "It can underplay domestic institutions and successful industrialization cases.",
+    },
+  ],
+  [
+    {
+      id: "c6-1",
+      question: "What is colonialism?",
+      answer: "Direct foreign rule or settlement over another territory.",
+    },
+    {
+      id: "c6-2",
+      question: "What is imperialism?",
+      answer:
+        "Broader political, economic or military domination beyond direct rule.",
+    },
+    {
+      id: "c6-3",
+      question: "When did Nigeria become independent?",
+      answer: "1 October 1960.",
+    },
+    {
+      id: "c6-4",
+      question: "What is an extractive colonial economy?",
+      answer:
+        "One organized heavily around obtaining resources for external markets.",
+    },
+    {
+      id: "c6-5",
+      question: "How can colonial transport routes shape later trade?",
+      answer:
+        "Routes built for exports may leave gaps in connections between local regions.",
+    },
+  ],
+  [
+    {
+      id: "c7-1",
+      question: "What is fiscal policy?",
+      answer: "Government decisions about taxation and public spending.",
+    },
+    {
+      id: "c7-2",
+      question: "What is monetary policy?",
+      answer:
+        "Central-bank actions influencing money, credit and interest rates.",
+    },
+    {
+      id: "c7-3",
+      question: "What does the Central Bank of Nigeria do?",
+      answer:
+        "It conducts monetary policy and supports financial-system stability.",
+    },
+    {
+      id: "c7-4",
+      question: "What is a public good?",
+      answer:
+        "A good that is generally non-rival and non-excludable, such as national defence.",
+    },
+    {
+      id: "c7-5",
+      question: "What is market failure?",
+      answer:
+        "When markets alone do not allocate resources efficiently, such as with pollution.",
+    },
+  ],
+  [
+    {
+      id: "c8-1",
+      question: "What is globalization?",
+      answer:
+        "Growing cross-border flows of trade, capital, information and people.",
+    },
+    {
+      id: "c8-2",
+      question: "What is a global value chain?",
+      answer: "Production stages spread across firms and countries.",
+    },
+    {
+      id: "c8-3",
+      question: "What is foreign direct investment (FDI)?",
+      answer:
+        "Cross-border investment involving lasting influence in a business.",
+    },
+    {
+      id: "c8-4",
+      question: "What is a possible benefit of regional trade?",
+      answer: "A larger market for producers, including firms in Nigeria.",
+    },
+    {
+      id: "c8-5",
+      question: "What is one risk of global interdependence?",
+      answer: "Disruptions abroad can spread through supply chains and prices.",
+    },
+  ],
+];
+const additionalExamQuestions = [
+  [
+    {
+      question: "Which scholar studied long cycles of global accumulation?",
+      options: [
+        "Giovanni Arrighi",
+        "David Ricardo",
+        "John Maynard Keynes",
+        "Friedrich Hayek",
+      ],
+      answer: 0,
+      chapter: 0,
+    },
+    {
+      question: "What does hegemony mean in world-systems analysis?",
+      options: [
+        "Predominant leadership in a global order",
+        "Complete economic isolation",
+        "Equal income everywhere",
+        "A local tax exemption",
+      ],
+      answer: 0,
+      chapter: 0,
+    },
+    {
+      question: "A commodity chain helps analysts trace...",
+      options: [
+        "Production stages and distribution of profits",
+        "Only voting patterns",
+        "Only birth rates",
+        "Only weather",
+      ],
+      answer: 0,
+      chapter: 0,
+    },
+  ],
+  [
+    {
+      question: "Which economist is closely linked to comparative advantage?",
+      options: ["David Ricardo", "Karl Marx", "Samir Amin", "Frantz Fanon"],
+      answer: 0,
+      chapter: 1,
+    },
+    {
+      question: "What does political economy examine?",
+      options: [
+        "Relations between politics, power and economic activity",
+        "Only accounting entries",
+        "Only individual psychology",
+        "Only military strategy",
+      ],
+      answer: 0,
+      chapter: 1,
+    },
+    {
+      question: "What is a central concern of institutional approaches?",
+      options: [
+        "How rules and organizations shape outcomes",
+        "The color of banknotes",
+        "Only household size",
+        "Only export tonnage",
+      ],
+      answer: 0,
+      chapter: 1,
+    },
+  ],
+  [
+    {
+      question: "What is nationalization?",
+      options: [
+        "Transfer of private assets to public ownership",
+        "A rise in exports",
+        "A change in exchange rates",
+        "Removal of tariffs",
+      ],
+      answer: 0,
+      chapter: 2,
+    },
+    {
+      question: "What is privatization?",
+      options: [
+        "Transfer of state assets to private ownership",
+        "A new public tax",
+        "An import quota",
+        "An election reform",
+      ],
+      answer: 0,
+      chapter: 2,
+    },
+    {
+      question: "What is a market price?",
+      options: [
+        "A price shaped by supply and demand",
+        "A price fixed by history",
+        "Always a government subsidy",
+        "Always equal to wages",
+      ],
+      answer: 0,
+      chapter: 2,
+    },
+  ],
+  [
+    {
+      question: "Which indicator measures income inequality?",
+      options: [
+        "Gini coefficient",
+        "Consumer price index",
+        "Exchange rate",
+        "Population density",
+      ],
+      answer: 0,
+      chapter: 3,
+    },
+    {
+      question: "What is human capital?",
+      options: [
+        "People's skills, education and health",
+        "Only physical machinery",
+        "Only natural resources",
+        "A country's currency",
+      ],
+      answer: 0,
+      chapter: 3,
+    },
+    {
+      question: "What is the poverty headcount ratio?",
+      options: [
+        "Share of people below a defined poverty line",
+        "Total value of exports",
+        "Annual inflation rate",
+        "Number of firms registered",
+      ],
+      answer: 0,
+      chapter: 3,
+    },
+  ],
+  [
+    {
+      question: "What is an enclave economy?",
+      options: [
+        "An export sector weakly linked to the rest of the economy",
+        "A fully diversified economy",
+        "A local election system",
+        "A universal pension scheme",
+      ],
+      answer: 0,
+      chapter: 4,
+    },
+    {
+      question: "What is economic diversification?",
+      options: [
+        "Expanding the range of productive activities",
+        "Depending on one export",
+        "Banning all imports",
+        "Fixing every price",
+      ],
+      answer: 0,
+      chapter: 4,
+    },
+    {
+      question: "Which strategy can reduce dependence on raw exports?",
+      options: [
+        "Developing domestic processing industries",
+        "Concentrating on one commodity",
+        "Reducing all education",
+        "Stopping all infrastructure spending",
+      ],
+      answer: 0,
+      chapter: 4,
+    },
+  ],
+  [
+    {
+      question: "What is indirect rule in colonial administration?",
+      options: [
+        "Governing through existing local authorities",
+        "Rule by elected national parliament",
+        "Government without local leaders",
+        "Control through stock markets only",
+      ],
+      answer: 0,
+      chapter: 5,
+    },
+    {
+      question: "Which event marked Nigeria's political independence?",
+      options: [
+        "End of British colonial rule in 1960",
+        "Creation of ECOWAS in 1975",
+        "Return to civilian rule in 1999",
+        "Formation of the African Union in 2002",
+      ],
+      answer: 0,
+      chapter: 5,
+    },
+  ],
+  [
+    {
+      question: "What is an externality?",
+      options: [
+        "A cost or benefit affecting third parties",
+        "A central bank reserve",
+        "A government budget line",
+        "An import licence",
+      ],
+      answer: 0,
+      chapter: 6,
+    },
+    {
+      question: "What does a progressive tax do?",
+      options: [
+        "Takes a higher share of income as income rises",
+        "Charges every person the same amount",
+        "Taxes only exports",
+        "Eliminates public revenue",
+      ],
+      answer: 0,
+      chapter: 6,
+    },
+  ],
+  [
+    {
+      question: "What is a tariff?",
+      options: [
+        "A tax on imported goods",
+        "A subsidy to all consumers",
+        "A bank interest payment",
+        "A wage contract",
+      ],
+      answer: 0,
+      chapter: 7,
+    },
+    {
+      question: "What is a trade deficit?",
+      options: [
+        "Imports of goods and services exceed exports",
+        "Exports exceed imports",
+        "A government budget surplus",
+        "A rise in foreign reserves",
+      ],
+      answer: 0,
+      chapter: 7,
+    },
+    {
+      question: "What is a non-tariff trade barrier?",
+      options: [
+        "A trade restriction other than a tariff",
+        "A tax on imported goods",
+        "A currency note",
+        "A private bank deposit",
+      ],
+      answer: 0,
+      chapter: 7,
+    },
+  ],
+];
+const revisionNotes = [
+  [
+    "Wallerstein; core, semi-periphery, periphery; commodity chains",
+    "Immanuel Wallerstein; Giovanni Arrighi",
+    "Nigeria's oil supply chain connects extraction with overseas refining and finance.",
+    "Core economies tend to control higher-value activities; peripheral economies often have weaker bargaining power.",
+    "Explain world-systems theory and apply it to Nigeria.",
+  ],
+  [
+    "Liberalism; Marxism; mercantilism; institutions; class",
+    "Adam Smith; Karl Marx; David Ricardo",
+    "Nigerian firms operate in markets shaped by taxation, regulation and public services.",
+    "Liberalism emphasizes markets; Marxism analyzes class and ownership; mercantilism stresses state trade power.",
+    "Compare liberal and Marxist political economy.",
+  ],
+  [
+    "Capitalism; socialism; mixed economy; privatization; nationalization",
+    "Adam Smith; Karl Marx",
+    "Nigeria combines private firms with state regulation and public infrastructure.",
+    "Capitalism emphasizes private ownership; socialism emphasizes collective ownership; mixed systems combine elements.",
+    "Distinguish capitalism, socialism and mixed economies.",
+  ],
+  [
+    "GDP; development; HDI; inequality; structural transformation",
+    "Amartya Sen; development economics",
+    "Oil GDP growth does not automatically improve electricity, education or health.",
+    "Growth concerns output; development includes human welfare and opportunities.",
+    "Why is GDP growth insufficient to measure development?",
+  ],
+  [
+    "Dependency; unequal exchange; commodity reliance; diversification",
+    "Andre Gunder Frank; Samir Amin; Raúl Prebisch",
+    "Oil-export dependence exposes Nigeria to international price volatility.",
+    "Dependency stresses external structures; domestic institutions also influence outcomes.",
+    "Evaluate dependency theory in the Nigerian context.",
+  ],
+  [
+    "Colonialism; imperialism; indirect rule; extraction; decolonization",
+    "Walter Rodney; Frantz Fanon",
+    "Colonial infrastructure often connected export-producing regions to ports; Nigeria gained independence in 1960.",
+    "Colonialism involves direct territorial rule; imperialism can include wider indirect domination.",
+    "Discuss economic legacies of British colonial rule in Nigeria.",
+  ],
+  [
+    "Fiscal policy; monetary policy; public goods; externalities",
+    "John Maynard Keynes; public-finance theory",
+    "The Nigerian government sets budgets; the Central Bank of Nigeria conducts monetary policy.",
+    "Fiscal policy uses taxation and spending; monetary policy influences money and credit.",
+    "Compare fiscal and monetary policy with Nigerian examples.",
+  ],
+  [
+    "Globalization; FDI; tariffs; value chains; regional trade",
+    "David Ricardo; international trade theory",
+    "African regional trade may create markets but requires competitive logistics and production.",
+    "Global integration offers markets and investment but exposes economies to external shocks.",
+    "Evaluate benefits and risks of globalization for Nigeria.",
+  ],
+];
+const revisionDeep = [
+  {
+    concepts: [
+      [
+        "World-system",
+        "An interconnected historical economy with a global division of labour.",
+      ],
+      [
+        "Core",
+        "Areas concentrating high-profit activities and political-economic influence.",
+      ],
+      [
+        "Periphery",
+        "Areas often concentrated in lower-return production with weaker bargaining power.",
+      ],
+      [
+        "Semi-periphery",
+        "An intermediate position combining core and peripheral activities.",
+      ],
+      [
+        "Commodity chain",
+        "Linked stages of producing, transporting and selling a product.",
+      ],
+    ],
+    thinkers: [
+      ["Immanuel Wallerstein", "Developed modern world-systems analysis."],
+      [
+        "Giovanni Arrighi",
+        "Studied systemic cycles of accumulation and changing global leadership.",
+      ],
+    ],
+    examples: [
+      "Follow Nigerian crude oil from extraction to refining, shipping, financing and final sale; value and control can be distributed unequally.",
+      "Consider how building domestic refining and petrochemical capacity may alter Nigeria's position in value chains.",
+    ],
+    comparison: [
+      "Core versus periphery: higher-value activities and influence versus greater dependence on lower-return activities.",
+      "World-systems versus dependency: both study structural inequality; world-systems emphasizes the whole global division of labour.",
+    ],
+    questions: [
+      "Explain core, semi-periphery and periphery with examples.",
+      "Assess the usefulness and limitations of world-systems analysis for Nigeria.",
+      "How can commodity chains reproduce global inequality?",
+    ],
+    answer:
+      "Define the world-system; explain the three zones; trace a Nigerian commodity chain; evaluate domestic policies and historical changes.",
+  },
+  {
+    concepts: [
+      [
+        "Political economy",
+        "Study of how economic activity interacts with political power, institutions and distribution.",
+      ],
+      [
+        "Economic liberalism",
+        "Approach emphasizing markets, exchange and incentives, with varying roles for government.",
+      ],
+      [
+        "Marxism",
+        "Approach emphasizing class, ownership, labour and accumulation.",
+      ],
+      [
+        "Mercantilism",
+        "Historical approach prioritizing state power and trade advantage.",
+      ],
+      ["Institutions", "Formal and informal rules shaping economic choices."],
+    ],
+    thinkers: [
+      [
+        "Adam Smith",
+        "Associated with classical political economy and market coordination.",
+      ],
+      [
+        "Karl Marx",
+        "Analyzed capitalism through class relations and ownership.",
+      ],
+      [
+        "David Ricardo",
+        "Developed comparative-advantage arguments in international trade.",
+      ],
+    ],
+    examples: [
+      "Examine the relationship between Nigerian business competition, taxation and public regulation.",
+      "Compare workers' wages and owners' returns in a hypothetical Nigerian manufacturing company.",
+    ],
+    comparison: [
+      "Liberal: incentives and markets; Marxist: class and ownership; mercantilist: state power and strategic trade.",
+      "A theory may illuminate one mechanism without explaining every outcome.",
+    ],
+    questions: [
+      "Compare liberal and Marxist explanations of economic inequality.",
+      "Explain how institutions affect Nigeria's economy.",
+      "Discuss mercantilism and its differences from economic liberalism.",
+    ],
+    answer:
+      "State each approach's assumptions, explain its view of the state and markets, use an example, then evaluate strengths and limits.",
+  },
+  {
+    concepts: [
+      [
+        "Capitalism",
+        "System in which private ownership and market exchange play central roles.",
+      ],
+      [
+        "Socialism",
+        "Family of systems emphasizing social or public ownership and collective goals.",
+      ],
+      [
+        "Mixed economy",
+        "Combination of market activity and government involvement.",
+      ],
+      [
+        "Privatization",
+        "Transfer of state assets or operations to private ownership.",
+      ],
+      ["Nationalization", "Transfer of private assets to public ownership."],
+    ],
+    thinkers: [
+      ["Adam Smith", "Influential thinker on markets and division of labour."],
+      ["Karl Marx", "Critiqued capitalist ownership and class relations."],
+    ],
+    examples: [
+      "Nigeria has privately owned banks and businesses alongside government regulation and public services.",
+      "Debate whether privatization of an enterprise improves efficiency, access and accountability.",
+    ],
+    comparison: [
+      "Capitalism: private ownership prominent; socialism: collective ownership prominent; mixed economy: both.",
+      "Ownership alone does not determine outcomes; regulation, competition and governance matter.",
+    ],
+    questions: [
+      "Compare capitalism, socialism and mixed economies.",
+      "Discuss advantages and disadvantages of privatization.",
+      "Why is Nigeria commonly described as a mixed economy?",
+    ],
+    answer:
+      "Define each system, compare ownership and allocation, illustrate Nigeria's mix, and evaluate efficiency and equity.",
+  },
+  {
+    concepts: [
+      [
+        "Economic growth",
+        "Increase in production, often measured using real GDP.",
+      ],
+      [
+        "Economic development",
+        "Broader improvement in living standards, capabilities and productive structures.",
+      ],
+      ["HDI", "Composite index of health, education and income dimensions."],
+      ["Gini coefficient", "Summary measure of income or wealth inequality."],
+      [
+        "Structural transformation",
+        "Shift of workers and output toward more productive activities.",
+      ],
+    ],
+    thinkers: [
+      [
+        "Amartya Sen",
+        "Emphasized development as expansion of substantive freedoms and capabilities.",
+      ],
+      [
+        "W. Arthur Lewis",
+        "Known for a dual-sector model of structural transformation.",
+      ],
+    ],
+    examples: [
+      "Higher petroleum export earnings can raise GDP without ensuring better schools, health care or reliable electricity.",
+      "Compare jobs created in processing industries with export revenue from raw commodities.",
+    ],
+    comparison: [
+      "Growth measures output; development also assesses distribution, services and opportunities.",
+      "GDP per capita is not a direct measure of equality or quality of life.",
+    ],
+    questions: [
+      "Differentiate growth from development.",
+      "Explain the limitations of GDP as a welfare measure.",
+      "How can Nigeria promote inclusive structural transformation?",
+    ],
+    answer:
+      "Define growth and development, use GDP and HDI, illustrate with oil revenues and public services, then assess distribution.",
+  },
+  {
+    concepts: [
+      [
+        "Dependency theory",
+        "Explains how unequal international relations may constrain development.",
+      ],
+      [
+        "Center–periphery",
+        "Distinction between dominant and structurally dependent economic positions.",
+      ],
+      [
+        "Commodity dependence",
+        "Heavy reliance on a narrow range of primary exports.",
+      ],
+      [
+        "Enclave economy",
+        "Export sector with limited links to other domestic sectors.",
+      ],
+      [
+        "Diversification",
+        "Broadening productive activities and export sources.",
+      ],
+    ],
+    thinkers: [
+      [
+        "Andre Gunder Frank",
+        "Argued that development and underdevelopment are historically connected.",
+      ],
+      [
+        "Samir Amin",
+        "Analyzed unequal accumulation between center and periphery.",
+      ],
+      [
+        "Raúl Prebisch",
+        "Structuralist thinker associated with center–periphery trade concerns; a precursor, not identical to dependency theory.",
+      ],
+    ],
+    examples: [
+      "Reliance on crude-oil earnings exposes Nigeria to world-price fluctuations.",
+      "Domestic processing and stronger supplier links may retain more value locally.",
+    ],
+    comparison: [
+      "Dependency highlights external constraints; institutional approaches emphasize domestic governance and policy.",
+      "Export diversification may reduce vulnerability but does not guarantee equitable outcomes.",
+    ],
+    questions: [
+      "Explain dependency theory and its major thinkers.",
+      "Assess dependency theory's relevance to Nigeria.",
+      "Critically discuss diversification as a development strategy.",
+    ],
+    answer:
+      "Define dependency, identify mechanisms, discuss Nigerian oil exposure, and balance external and domestic explanations.",
+  },
+  {
+    concepts: [
+      [
+        "Colonialism",
+        "Direct political control or settlement by an external power.",
+      ],
+      ["Imperialism", "Broader extension of political or economic domination."],
+      [
+        "Indirect rule",
+        "Colonial administration through selected local authorities.",
+      ],
+      [
+        "Extractive economy",
+        "Production organized substantially around removal of resources for external markets.",
+      ],
+      ["Decolonization", "Process of ending colonial rule."],
+    ],
+    thinkers: [
+      [
+        "Walter Rodney",
+        "Examined historical relationships between European expansion and African underdevelopment.",
+      ],
+      ["Frantz Fanon", "Analyzed colonial power, violence and liberation."],
+    ],
+    examples: [
+      "British colonial rail and port infrastructure often served export trade as well as other functions.",
+      "Nigeria gained independence from Britain on 1 October 1960.",
+    ],
+    comparison: [
+      "Colonialism generally involves direct rule; imperialism can include indirect forms of control.",
+      "Colonial economic legacies interact with post-independence policies and institutions.",
+    ],
+    questions: [
+      "Distinguish colonialism and imperialism.",
+      "Evaluate colonialism's effects on Nigeria's economic structure.",
+      "Explain indirect rule and its political-economic consequences.",
+    ],
+    answer:
+      "Define both terms, describe administration and extraction, illustrate Nigerian transport and exports, and consider postcolonial choices.",
+  },
+  {
+    concepts: [
+      [
+        "Fiscal policy",
+        "Government decisions on taxation and public expenditure.",
+      ],
+      [
+        "Monetary policy",
+        "Central-bank actions influencing monetary and credit conditions.",
+      ],
+      [
+        "Public good",
+        "Good that is non-rival and non-excludable in the economic sense.",
+      ],
+      [
+        "Externality",
+        "Cost or benefit affecting third parties outside a transaction.",
+      ],
+      [
+        "Market failure",
+        "Situation where markets alone may not allocate resources efficiently.",
+      ],
+    ],
+    thinkers: [
+      [
+        "John Maynard Keynes",
+        "Influential in macroeconomic stabilization and demand management.",
+      ],
+      [
+        "Richard Musgrave",
+        "Influential in public-finance analysis of government functions.",
+      ],
+    ],
+    examples: [
+      "Nigeria's government budgets determine spending priorities and revenue plans.",
+      "The Central Bank of Nigeria uses monetary policy tools to influence inflation and financial conditions.",
+    ],
+    comparison: [
+      "Fiscal tools: taxes and spending; monetary tools: interest rates, liquidity and credit conditions.",
+      "Public provision, regulation and taxes can address different market failures.",
+    ],
+    questions: [
+      "Compare fiscal and monetary policy.",
+      "Explain three reasons for government intervention in markets.",
+      "Use Nigerian examples to discuss inflation and policy responses.",
+    ],
+    answer:
+      "Define each policy, identify responsible institutions and tools, apply a Nigerian example, and assess trade-offs.",
+  },
+  {
+    concepts: [
+      [
+        "Globalization",
+        "Increasing cross-border integration of production, finance, information and exchange.",
+      ],
+      [
+        "FDI",
+        "Investment intended to establish a lasting interest or influence in a foreign enterprise.",
+      ],
+      ["Tariff", "Tax imposed on imported goods."],
+      [
+        "Global value chain",
+        "Cross-border sequence of activities creating and delivering a product.",
+      ],
+      [
+        "Regional integration",
+        "Cooperation to reduce barriers among participating economies.",
+      ],
+    ],
+    thinkers: [
+      [
+        "David Ricardo",
+        "Comparative advantage helps explain potential gains from specialization and trade.",
+      ],
+      [
+        "Dani Rodrik",
+        "Examines tensions between global integration and domestic policy choices.",
+      ],
+    ],
+    examples: [
+      "Regional African trade may create markets for Nigerian manufactured products.",
+      "Global supply disruptions can raise the cost of imported machinery and inputs.",
+    ],
+    comparison: [
+      "Potential benefits: markets, technology and investment; risks: shocks, unequal gains and competitive pressure.",
+      "Tariffs may protect some producers but also raise costs for consumers and downstream firms.",
+    ],
+    questions: [
+      "Evaluate globalization's benefits and risks for Nigeria.",
+      "Explain FDI and its possible effects on development.",
+      "Discuss regional trade and Nigerian industrial competitiveness.",
+    ],
+    answer:
+      "Define globalization, explain channels, use Nigerian trade examples, weigh gains and risks, and recommend practical policies.",
+  },
+];
+const advancedLessons = [
+  [
+    [
+      "Learning objectives",
+      "Explain why world-systems analysis examines a connected historical economy; distinguish core, semi-periphery and periphery; trace a commodity chain; assess the theory using Nigeria.",
+    ],
+    [
+      "Historical background",
+      "Immanuel Wallerstein developed modern world-systems analysis in the 1970s. He argued that the modern capitalist world-economy grew through centuries of expanding trade, production and political competition. Its units are linked: events in one region affect opportunities elsewhere. Countries are important, but the world-system is the larger unit of analysis.",
+    ],
+    [
+      "Core, periphery and semi-periphery",
+      "Core processes tend to command higher profits, advanced technology, finance and stronger bargaining power. Peripheral processes often face lower returns, dependence on commodity exports and less influence over prices. Semi-peripheral positions combine characteristics of both and may buffer tensions in the wider system. These describe relationships and activities, not permanent labels for entire populations.",
+    ],
+    [
+      "Commodity chains and unequal exchange",
+      "A commodity chain links extraction, processing, transportation, finance, branding and retail. Different actors capture different shares of the final value. Unequal exchange is a contested explanation for why some relationships systematically favor powerful producers and buyers. To analyse a chain, identify who owns assets, sets standards, controls technology and bears risk.",
+    ],
+    [
+      "Nigerian case study: petroleum",
+      "Consider Nigerian crude oil. Extraction occurs domestically, while parts of shipping, trading, financing, refining and distribution can be organized across borders. Ask where skilled jobs, technological learning and margins accumulate. Greater domestic refining could change some links, but infrastructure, governance, global prices and market access also influence the outcome.",
+    ],
+    [
+      "Critical evaluation",
+      "The theory highlights long-term structural inequality and global interdependence. Critics argue it may overstate external constraints and understate domestic policy, entrepreneurship, institutions and movement between positions. A balanced answer connects global structure with specific Nigerian decisions rather than claiming geography determines destiny.",
+    ],
+    [
+      "Worked exam answer",
+      "Question: Explain the world-systems perspective with Nigerian examples. Begin by defining the world-system and Wallerstein's contribution. Explain core, periphery and semi-periphery. Trace the petroleum commodity chain and discuss who captures value. Conclude by weighing structural constraints against domestic industrial policy and institutional choices.",
+    ],
+  ],
+  [
+    [
+      "Learning objectives",
+      "Distinguish liberal, Marxist, mercantilist and institutional approaches; identify their leading thinkers; explain what each approach emphasizes; apply them to Nigerian policy debates.",
+    ],
+    [
+      "What political economy studies",
+      "Political economy investigates how power, laws, institutions and social groups shape production, exchange and distribution. It asks not only whether an economy grows but also who controls resources, who benefits and how collective decisions are made.",
+    ],
+    [
+      "Liberal political economy",
+      "Classical liberal thinkers such as Adam Smith emphasized specialization, competition and market coordination. David Ricardo developed the principle of comparative advantage: countries may gain from specialization even when one is more productive in many activities. Modern liberal approaches differ on regulation, public goods and market failures; they do not all argue for zero government.",
+    ],
+    [
+      "Marxist political economy",
+      "Karl Marx analyzed capitalism through ownership of the means of production, wage labour, class conflict and capital accumulation. Bourgeoisie refers to owners of capital; proletariat refers broadly to wage workers who sell labour. A Marxist question asks how profits, bargaining power and working conditions relate to ownership and production.",
+    ],
+    [
+      "Mercantilist and institutional perspectives",
+      "Mercantilist approaches historically emphasized national power, favorable trade balances and strategic state action. Institutional approaches focus on formal rules, enforcement, organizations and informal norms that shape incentives. Institutions help explain why similar resources can produce different economic outcomes.",
+    ],
+    [
+      "Nigerian comparison",
+      "Take a manufacturing firm in Nigeria. A liberal analysis may ask whether competition and reliable prices support investment. A Marxist analysis may examine labour conditions and distribution of profits. An institutional analysis may ask about electricity, contract enforcement and regulatory predictability. These perspectives can be combined to make a fuller diagnosis.",
+    ],
+    [
+      "Worked exam answer",
+      "Question: Compare liberalism and Marxism. Define each perspective; identify Smith and Marx; compare views of ownership, markets, class and state power; apply both to a Nigerian enterprise; acknowledge that each captures different mechanisms.",
+    ],
+  ],
+  [
+    [
+      "Learning objectives",
+      "Define capitalism, socialism and mixed economy; explain ownership and allocation; distinguish nationalization from privatization; assess efficiency and equity trade-offs.",
+    ],
+    [
+      "Capitalism in practice",
+      "Capitalism generally features private ownership of productive assets, wage labour, market exchange and investment for returns. Prices can coordinate decentralized decisions, but competition may be imperfect. Market failures, inequality and unequal access to essential services create arguments for public intervention.",
+    ],
+    [
+      "Socialism and its varieties",
+      "Socialism is a family of approaches emphasizing social or public control of major productive resources and collective goals. Systems differ greatly: some rely heavily on central planning while others retain markets and cooperatives. Do not assume every socialist proposal eliminates all private property or market exchange.",
+    ],
+    [
+      "Mixed economies",
+      "Most contemporary economies mix private enterprise with public regulation, infrastructure, taxation and social services. Nigeria is commonly described as mixed because businesses operate alongside state institutions and public provision. The balance varies across sectors and over time.",
+    ],
+    [
+      "Privatization versus nationalization",
+      "Privatization transfers public assets or operations to private ownership. Potential gains include investment and efficiency, but results depend on competition and regulation. Nationalization transfers assets into public ownership, sometimes for strategic or distributional reasons. Public ownership also requires accountability and competent management.",
+    ],
+    [
+      "Nigerian policy case",
+      "Consider electricity provision or transport. Compare public investment, regulated private provision and mixed arrangements. Ask who funds infrastructure, how tariffs are set, whether low-income households can access services and how performance is measured.",
+    ],
+    [
+      "Worked exam answer",
+      "Question: Is a mixed economy preferable to pure capitalism or socialism? Define the three systems, compare ownership and coordination, discuss Nigerian examples, then evaluate efficiency, inclusion and accountability.",
+    ],
+  ],
+  [
+    [
+      "Learning objectives",
+      "Distinguish growth from development; interpret GDP, HDI and inequality measures; explain structural transformation; discuss why oil revenue alone does not guarantee welfare.",
+    ],
+    [
+      "Growth is not development",
+      "Economic growth means an increase in real production over time, often measured using real GDP. Economic development is broader: improvements in health, education, capabilities, productive employment, security and opportunities. An economy may grow while many households experience little benefit.",
+    ],
+    [
+      "Measuring development",
+      "GDP measures economic output, not happiness or equal distribution. GDP per capita divides output by population but hides differences between people. The Human Development Index combines indicators of health, education and income. The Gini coefficient summarizes inequality; no single statistic tells the whole story.",
+    ],
+    [
+      "Structural transformation",
+      "Long-run development often involves shifting labour and resources from low-productivity activities into higher-productivity manufacturing and services while raising agricultural productivity. Skills, electricity, transport, credit and reliable institutions can support this transition.",
+    ],
+    [
+      "Human capabilities and inclusion",
+      "Amartya Sen's capabilities perspective asks what people are genuinely able to do and become. Access to schools, healthcare, security and economic participation matters beyond income. Inclusive development requires attention to gender, region, employment quality and poverty.",
+    ],
+    [
+      "Nigerian case: oil and livelihoods",
+      "Oil export earnings may boost national accounts, but the effect on households depends on employment, revenue management, public services and price stability. Evaluate whether revenue translates into reliable electricity, clinics, education, productive investment and broad-based opportunities.",
+    ],
+    [
+      "Worked exam answer",
+      "Question: Why is GDP growth an incomplete measure of development? Define GDP growth and development, explain HDI and inequality, use the Nigerian oil example, and conclude with a broader set of indicators.",
+    ],
+  ],
+  [
+    [
+      "Learning objectives",
+      "Explain dependency theory; identify Frank, Amin and Prebisch; connect commodity dependence to development constraints; evaluate the theory critically.",
+    ],
+    [
+      "The central argument",
+      "Dependency theory argues that historical and ongoing relationships between powerful and weaker economies can constrain development. It emerged partly in response to the view that every country follows the same internal stages toward prosperity. It emphasizes unequal trade, finance, technology and patterns of ownership.",
+    ],
+    [
+      "Important thinkers",
+      "Andre Gunder Frank argued that the development of some regions and underdevelopment of others are historically connected. Samir Amin studied unequal accumulation and global hierarchies. Raúl Prebisch, a structuralist precursor rather than an identical dependency theorist, examined center–periphery trade problems.",
+    ],
+    [
+      "Mechanisms of dependence",
+      "Reliance on a few commodities can expose revenue to international price swings. Foreign technology, financing and market access may be costly or controlled externally. An enclave export sector may have weak supplier and employment links with the wider domestic economy.",
+    ],
+    [
+      "Nigerian case: oil dependence",
+      "Imagine a sharp fall in world oil prices. Export earnings and public revenues may decline, creating pressure on budgets, exchange rates and investment. Building domestic processing, competitive non-oil exports and stronger supplier networks can reduce some vulnerabilities, though each requires capable institutions.",
+    ],
+    [
+      "Criticisms and alternatives",
+      "Dependency approaches illuminate structural barriers but can underplay domestic governance, policy failures, differences between countries and successful industrial transitions. A strong analysis examines both international conditions and local choices instead of treating dependency as an unavoidable fate.",
+    ],
+    [
+      "Worked exam answer",
+      "Question: Assess dependency theory's relevance to Nigeria. Define the theory; introduce Frank and Amin; explain commodity and technology dependence; use oil price exposure; evaluate internal policy and diversification.",
+    ],
+  ],
+  [
+    [
+      "Learning objectives",
+      "Distinguish colonialism and imperialism; explain indirect rule and extractive economies; analyze colonial legacies without overlooking post-independence agency.",
+    ],
+    [
+      "Colonialism and imperialism",
+      "Colonialism generally involves direct territorial administration or settlement by an outside power. Imperialism is a broader term for extending influence or domination, sometimes without formal territorial rule. The concepts overlap but are not identical.",
+    ],
+    [
+      "Administration and indirect rule",
+      "British colonial administration in parts of Nigeria used existing or appointed local authorities under indirect rule. Arrangements varied across regions and changed over time. These institutions affected taxation, political representation and relations between local communities and colonial officials.",
+    ],
+    [
+      "Economic organization",
+      "Colonial authorities and firms developed infrastructure, trade rules and administrative structures partly to facilitate export production and resource movement. Railways and ports could also provide wider benefits, but their routes and priorities often reflected colonial commercial interests.",
+    ],
+    [
+      "Intellectual perspectives",
+      "Walter Rodney examined the historical role of European expansion in African underdevelopment. Frantz Fanon explored colonial domination and liberation. Their analyses are influential perspectives, not substitutes for assessing specific historical evidence.",
+    ],
+    [
+      "Nigeria after independence",
+      "Nigeria became independent from Britain on 1 October 1960. Postcolonial outcomes reflect inherited institutions as well as later policies, social conflicts, global markets and domestic leadership. Avoid attributing every current problem solely to colonialism.",
+    ],
+    [
+      "Worked exam answer",
+      "Question: Discuss the economic effects of colonial rule in Nigeria. Define colonialism, explain export-oriented production and infrastructure, consider administrative legacies, and weigh continuity against post-independence choices.",
+    ],
+  ],
+  [
+    [
+      "Learning objectives",
+      "Differentiate fiscal and monetary policy; identify market failures and public goods; explain how policy tools can address inflation, unemployment and development.",
+    ],
+    [
+      "Why governments intervene",
+      "Governments establish rules, enforce contracts, provide public services and address externalities. A pure public good is both non-rival and non-excludable; many services commonly called public are not pure public goods. Market failure can arise from externalities, market power, missing information or under-provision.",
+    ],
+    [
+      "Fiscal policy",
+      "Fiscal policy concerns public expenditure and taxation. Higher spending or lower taxes can stimulate demand in some conditions, while spending restraint or tax changes may affect inflation and debt. Outcomes depend on financing, implementation, capacity and the wider economy.",
+    ],
+    [
+      "Monetary policy",
+      "Central banks influence financial conditions using tools such as policy interest rates and liquidity management. In Nigeria, the Central Bank of Nigeria is responsible for monetary policy. Higher interest rates can help restrain inflationary pressures but may also make borrowing more expensive.",
+    ],
+    [
+      "Inflation and trade-offs",
+      "Inflation is a sustained rise in the general price level. Supply disruptions, currency movements and demand conditions can all matter. No single tool fixes every cause. Fiscal and monetary authorities may need coordination while maintaining clear institutional responsibilities.",
+    ],
+    [
+      "Nigerian case study",
+      "Suppose food prices rise after a transport disruption. Monetary tightening may reduce broad demand pressure, but fixing transport bottlenecks and supply constraints may be more directly relevant. Evaluate the policy mix rather than recommending one instrument automatically.",
+    ],
+    [
+      "Worked exam answer",
+      "Question: Compare fiscal and monetary policy in Nigeria. Define both, identify government and central bank roles, list tools, explain inflation trade-offs and give a practical Nigerian example.",
+    ],
+  ],
+  [
+    [
+      "Learning objectives",
+      "Define globalization, FDI, tariffs and value chains; explain trade opportunities and vulnerabilities; evaluate regional integration using Nigerian examples.",
+    ],
+    [
+      "What globalization involves",
+      "Globalization refers to increasing cross-border links in production, trade, finance, information and movement. It is not a single policy: technology, business decisions, migration, treaties and national regulations all shape its form.",
+    ],
+    [
+      "Trade and comparative advantage",
+      "Comparative advantage suggests gains from specializing in activities with lower opportunity cost and exchanging with others. However, adjustment costs, weak infrastructure and unequal access to opportunity can prevent benefits from being shared evenly.",
+    ],
+    [
+      "FDI and value chains",
+      "Foreign direct investment usually involves a lasting ownership interest or influence in an enterprise abroad. It may bring capital, jobs and skills, but spillovers depend on domestic suppliers, labour practices, competition and institutions. Global value chains split production across locations.",
+    ],
+    [
+      "Tariffs and regional trade",
+      "Tariffs tax imports and can protect some domestic firms, but also raise costs for consumers and businesses using imported inputs. Regional integration aims to ease trade among participating economies. Nigerian firms need logistics, standards and productive capacity to benefit.",
+    ],
+    [
+      "Nigerian opportunities and risks",
+      "Cross-border markets can expand demand for Nigerian manufactured goods and services. At the same time, exchange-rate volatility, imported input costs and global supply interruptions can raise risks. Assess who gains, who loses and what complementary domestic policies are needed.",
+    ],
+    [
+      "Worked exam answer",
+      "Question: Evaluate globalization's effects on Nigeria. Define globalization, identify trade and investment channels, discuss opportunities and vulnerabilities, then propose measures for inclusive benefits.",
+    ],
+  ],
+];
+function readSection(i) {
+  try {
+    return Math.max(
+      0,
+      Math.min(6, Number(localStorage.getItem("pol225-reading-" + i)) || 0),
+    );
+  } catch {
+    return 0;
+  }
+}
+function rememberSection(i, n) {
+  try {
+    localStorage.setItem("pol225-reading-" + i, String(n));
+  } catch {}
+}
+function updateReading(n) {
+  const total = advancedLessons[chosen].length,
+    pct = Math.round(((n + 1) / total) * 100);
+  const a = document.getElementById("lessonReadingLabel"),
+    b = document.getElementById("lessonReadingPercent"),
+    c = document.getElementById("lessonReadingBar");
+  if (a) a.textContent = "Section " + (n + 1) + " of " + total;
+  if (b) b.textContent = pct + "% reached";
+  if (c) c.style.width = pct + "%";
+}
+function jumpLesson(n) {
+  const el = document.getElementById("lesson-section-" + n);
+  if (el) {
+    rememberSection(chosen, n);
+    updateReading(n);
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+let lessonObserver = null;
+function watchLesson() {
+  if (lessonObserver) {
+    lessonObserver.disconnect();
+    lessonObserver = null;
+  }
+  if (
+    view !== "lesson" ||
+    lessonMode !== "deep" ||
+    typeof IntersectionObserver === "undefined"
+  )
+    return;
+  lessonObserver = new IntersectionObserver(
+    (entries) => {
+      for (const e of entries)
+        if (e.isIntersecting) {
+          const n = Number(e.target.dataset.section);
+          rememberSection(chosen, n);
+          updateReading(n);
+        }
+    },
+    { rootMargin: "-18% 0px -65% 0px" },
+  );
+  document
+    .querySelectorAll(".lesson-section[data-section]")
+    .forEach((el) => lessonObserver.observe(el));
+}
+const $ = (x) => document.getElementById(x);
+const escapeHtml = (s) =>
+  String(s).replace(
+    /[&<>"']/g,
+    (x) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[
+        x
+      ],
+  );
+const safe = (s) => escapeHtml(s);
+const navs = [
+  ["home", "Home"],
+  ["chapters", "Chapters"],
+  ["flashcards", "Cards"],
+  ["mock", "Mock exam"],
+  ["revision", "Revision"],
+];
+let view = "home",
+  chosen = 0,
+  answers = {},
+  submitted = false,
+  flip = false,
+  cardIndex = 0,
+  cardChapter = -1,
+  exam = null,
+  interval = null,
+  examIndex = 0,
+  examNavOpen = false,
+  revisionIndex = -1,
+  lessonMode = "deep";
+let progress = { done: [], scores: {}, known: {}, attempts: [] };
+try {
+  const p = JSON.parse(localStorage.getItem("pol225-v16"));
+  if (p && Array.isArray(p.done)) progress = { ...progress, ...p };
+} catch {}
+const save = () => {
+  try {
+    localStorage.setItem("pol225-v16", JSON.stringify(progress));
+  } catch {}
+};
+const btn = (label, action, primary = false) =>
+  '<button class="btn ' +
+  (primary ? "primary" : "") +
+  '" data-act="' +
+  action +
+  '">' +
+  label +
+  "</button>";
+function go(v) {
+  view = v;
+  location.hash = v;
+  render();
+  scrollTo(0, 0);
+}
+function card(c, i) {
+  return (
+    '<article class="card"><span class="tag">Chapter ' +
+    (i + 1) +
+    "</span><h3>" +
+    safe(c.title) +
+    "</h3><p>" +
+    safe(c.subtitle) +
+    '</p><div class="row"><small class="muted">' +
+    (progress.done.includes(c.id)
+      ? "✓ Completed"
+      : "7 in-depth sections · 5 quiz questions") +
+    "</small>" +
+    btn("Study →", "lesson:" + i, true) +
+    "</div></article>"
+  );
+}
+function nav() {
+  for (const id of ["nav", "mobile"])
+    $(id).innerHTML = navs
+      .map(
+        ([k, label]) =>
+          '<button data-go="' +
+          k +
+          '" class="' +
+          (view === k ? "active" : "") +
+          '">' +
+          label +
+          "</button>",
+      )
+      .join("");
+  document
+    .querySelectorAll("[data-go]")
+    .forEach((b) => (b.onclick = () => go(b.dataset.go)));
+}
+function render() {
+  nav();
+  let h = "";
+  if (view === "home") {
+    h =
+      '<section class="hero"><span class="tag">Your political economy learning companion</span><h1>Understand the world.<br>Own your exam.</h1><p>Eight clear chapters, Nigeria-focused examples, self-check quizzes, flashcards and a timed mock examination. Learn complex ideas in easy English.</p>' +
+      btn("Explore chapters", "chapters") +
+      " " +
+      btn("Take mock exam", "mock") +
+      '</section><div class="stats"><div class="stat"><b>8</b><span>Chapters</span></div><div class="stat"><b>' +
+      Math.round((progress.done.length / 8) * 100) +
+      '%</b><span>Completed</span></div><div class="stat"><b>' +
+      progress.attempts.length +
+      '</b><span>Mock attempts</span></div></div><h2 class="section-title">Your learning path</h2><div class="grid">' +
+      chapters.map(card).join("") +
+      "</div>";
+  } else if (view === "chapters") {
+    h =
+      '<h1 class="section-title">All eight chapters</h1><p class="muted">Start anywhere, and mark lessons complete as you learn.</p><div class="grid">' +
+      chapters.map(card).join("") +
+      "</div>";
+  } else if (view === "lesson") {
+    const c = chapters[chosen],
+      sections = advancedLessons[chosen],
+      savedSection = readSection(chosen);
+    h =
+      '<div class="reading lesson-advanced">' +
+      btn("← All chapters", "chapters") +
+      '<div class="lesson-intro"><p class="tag">Chapter ' +
+      c.id +
+      " · POL225</p><h1>" +
+      safe(c.title) +
+      '</h1><p class="muted">' +
+      safe(c.subtitle) +
+      '</p><p>Understand the ideas, explore Nigerian examples, and practise explaining what you learn.</p></div><div class="lesson-modes">' +
+      btn(
+        "In-depth lesson" + (lessonMode === "deep" ? " ✓" : ""),
+        "lessonmode:deep",
+        lessonMode === "deep",
+      ) +
+      btn(
+        "Quick overview" + (lessonMode === "quick" ? " ✓" : ""),
+        "lessonmode:quick",
+        lessonMode === "quick",
+      ) +
+      "</div>" +
+      (lessonMode === "deep"
+        ? '<div class="lesson-reading-status" aria-live="polite"><div><strong id="lessonReadingLabel">Section ' +
+          (savedSection + 1) +
+          " of " +
+          sections.length +
+          '</strong><span id="lessonReadingPercent">' +
+          Math.round(((savedSection + 1) / sections.length) * 100) +
+          '% reached</span></div><div class="progress"><i id="lessonReadingBar" style="width:' +
+          ((savedSection + 1) / sections.length) * 100 +
+          '%"></i></div></div>' +
+          (savedSection > 0
+            ? '<div class="lesson-resume">' +
+              btn(
+                "↪ Continue at section " + (savedSection + 1),
+                "lessonjump:" + savedSection,
+                true,
+              ) +
+              "</div>"
+            : "") +
+          '<details class="lesson-outline"><summary>Inside this chapter · ' +
+          sections.length +
+          " sections <span>Show / hide</span></summary><ol>" +
+          sections
+            .map(
+              (x, i) =>
+                '<li><button type="button" class="lesson-jump" data-act="lessonjump:' +
+                i +
+                '">' +
+                safe(x[0]) +
+                "</button></li>",
+            )
+            .join("") +
+          "</ol></details>" +
+          sections
+            .map((x, i) => {
+              const sentences = x[1].match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [x[1]],
+                mid = Math.ceil(sentences.length / 2);
+              return (
+                '<section class="panel lesson-section" id="lesson-section-' +
+                i +
+                '" data-section="' +
+                i +
+                '"><span class="tag">Section ' +
+                (i + 1) +
+                " / " +
+                sections.length +
+                "</span><h2>" +
+                safe(x[0]) +
+                "</h2><p>" +
+                safe(sentences.slice(0, mid).join(" ").trim()) +
+                "</p>" +
+                (mid < sentences.length
+                  ? "<p>" + safe(sentences.slice(mid).join(" ").trim()) + "</p>"
+                  : "") +
+                '<details class="lesson-reflect"><summary>Check your understanding</summary><p>In your own words, explain ' +
+                safe(x[0].toLowerCase()) +
+                ' and connect it to the chapter topic. What Nigerian example or limitation could you discuss?</p></details><div class="lesson-section-next">' +
+                (i > 0
+                  ? btn("← Previous section", "lessonjump:" + (i - 1))
+                  : "") +
+                (i < sections.length - 1
+                  ? btn("Next section →", "lessonjump:" + (i + 1), true)
+                  : btn("Finish lesson ↓", "lessonfinish", true)) +
+                "</div></section>"
+              );
+            })
+            .join("")
+        : '<div class="lesson-outline lesson-quick-label"><strong>Chapter at a glance</strong></div>' +
+          c.sections
+            .map(
+              (x) =>
+                '<section class="panel lesson-section"><h2>' +
+                safe(x.title) +
+                "</h2><p>" +
+                safe(x.body) +
+                "</p></section>",
+            )
+            .join("")) +
+      '<div class="panel lesson-completion" id="lesson-completion"><h2>Finish this chapter</h2><p>Review the main ideas, then take the quiz. Mark this chapter complete when you are ready.</p><div class="lesson-actions">' +
+      btn(
+        progress.done.includes(c.id)
+          ? "✓ Chapter completed"
+          : "Mark chapter complete",
+        "complete",
+        true,
+      ) +
+      btn("Take chapter quiz", "quiz") +
+      btn("Revision sheet", "rev:" + chosen) +
+      '</div></div><div class="lesson-actions">' +
+      (chosen > 0 ? btn("← Previous chapter", "lesson:" + (chosen - 1)) : "") +
+      (chosen < 7
+        ? btn("Next chapter →", "lesson:" + (chosen + 1), true)
+        : "") +
+      "</div></div>";
+  } else if (view === "quiz") {
+    let c = chapters[chosen];
+    h =
+      '<div class="reading">' +
+      btn("← Back to chapter", "lesson:" + chosen) +
+      "<h1>" +
+      safe(c.title) +
+      ' · Quiz</h1><p class="muted">Answer all five questions; explanations appear after grading.</p>' +
+      c.quiz
+        .map(
+          (q, i) =>
+            '<section class="panel"><h2>' +
+            (i + 1) +
+            ". " +
+            safe(q.question) +
+            "</h2>" +
+            q.options
+              .map(
+                (o, j) =>
+                  '<label class="option"><input type="radio" name="quiz' +
+                  i +
+                  '" value="' +
+                  j +
+                  '" ' +
+                  (answers[i] === j ? "checked" : "") +
+                  " " +
+                  (submitted ? "disabled" : "") +
+                  "> " +
+                  safe(o) +
+                  "</label>",
+              )
+              .join("") +
+            (submitted
+              ? '<div class="feedback ' +
+                (answers[i] === q.answer ? "" : "bad") +
+                '">' +
+                (answers[i] === q.answer
+                  ? "Correct!"
+                  : "Correct answer: " + safe(q.options[q.answer])) +
+                "</div>"
+              : "") +
+            "</section>",
+        )
+        .join("") +
+      (submitted
+        ? '<div class="panel"><h2>Score: ' +
+          c.quiz.filter((q, i) => answers[i] === q.answer).length +
+          "/5</h2>" +
+          btn("Try again", "retake", true) +
+          "</div>"
+        : btn("Grade chapter quiz", "grade", true)) +
+      "</div>";
+  } else if (view === "flashcards") {
+    const all = flashcardBank.flatMap((deck, ci) =>
+      deck.map((item, idx) => ({
+        ...item,
+        chapterIndex: ci,
+        originalIndex: idx,
+      })),
+    );
+    const deck =
+      cardChapter === -1
+        ? all
+        : all.filter((q) => q.chapterIndex === cardChapter);
+    cardIndex = ((cardIndex % deck.length) + deck.length) % deck.length;
+    const q = deck[cardIndex],
+      key = "flash-v2-" + (q.chapterIndex + 1) + ":" + q.originalIndex,
+      learned = deck.filter(
+        (x) =>
+          progress.known[
+            "flash-v2-" + (x.chapterIndex + 1) + ":" + x.originalIndex
+          ],
+      ).length;
+    h =
+      '<div class="reading flash-layout"><div class="flash-header"><div><p class="tag">POL225 · Active recall</p><h1>Flashcard practice</h1><p class="muted">40 original study questions covering all eight chapters. Select all chapters or focus on one topic.</p></div><div class="flash-total"><strong>40</strong><span>Study cards</span></div></div><div class="flash-toolbar"><label for="cardSelect">Study deck</label><select id="cardSelect" class="flash-select"><option value="-1" ' +
+      (cardChapter === -1 ? "selected" : "") +
+      ">All chapters · 40 questions</option>" +
+      chapters
+        .map(
+          (x, i) =>
+            '<option value="' +
+            i +
+            '" ' +
+            (i === cardChapter ? "selected" : "") +
+            ">" +
+            safe(x.title) +
+            " · 5</option>",
+        )
+        .join("") +
+      '</select></div><div class="flash-metrics"><span>Question <strong>' +
+      (cardIndex + 1) +
+      "</strong> of " +
+      deck.length +
+      "</span><span><strong>" +
+      learned +
+      '</strong> learned</span></div><div class="progress" role="progressbar" aria-label="Card position" aria-valuemin="0" aria-valuemax="' +
+      deck.length +
+      '" aria-valuenow="' +
+      (cardIndex + 1) +
+      '"><i style="width:' +
+      ((cardIndex + 1) / deck.length) * 100 +
+      '%"></i></div><p class="flash-topic">' +
+      safe(chapters[q.chapterIndex].title) +
+      " · " +
+      (progress.known[key] ? "✓ Learned" : "Needs review") +
+      '</p><button class="flash flash-premium ' +
+      (flip ? "revealed" : "") +
+      '" data-act="flip" aria-label="' +
+      (flip ? "Show question" : "Reveal answer") +
+      '"><span class="flash-eyebrow">' +
+      (flip ? "ANSWER" : "QUESTION") +
+      '</span><span class="flash-question">' +
+      safe(flip ? q.answer : q.question) +
+      '</span><span class="flash-hint">' +
+      (flip ? "Tap to show question" : "Tap card to reveal answer") +
+      '</span></button><div class="flash-controls">' +
+      btn("← Previous", "cardprev") +
+      btn(progress.known[key] ? "✓ Learned" : "✓ Mark learned", "known", true) +
+      btn("Next →", "cardnext") +
+      '</div><div class="flash-bottom">' +
+      btn("↻ Restart deck", "cardreset") +
+      '<span class="muted">Your learned cards stay saved on this device.</span></div></div>';
+  } else if (view === "revision") {
+    h =
+      '<div class="reading revision-layout ' +
+      (revisionIndex < 0 ? "revision-index" : "") +
+      '"><p class="tag">POL225 · Exam preparation</p><h1>Revision study sheets</h1><p class="muted">Study the definitions, understand the theories, connect them to Nigeria, and practise structured exam answers.</p><label for="revisionSelect">Choose a chapter</label><select id="revisionSelect" class="flash-select"><option value="-1" ' +
+      (revisionIndex < 0 ? "selected" : "") +
+      ">All eight chapters</option>" +
+      chapters
+        .map(
+          (c, i) =>
+            '<option value="' +
+            i +
+            '" ' +
+            (revisionIndex === i ? "selected" : "") +
+            ">Chapter " +
+            c.id +
+            " · " +
+            safe(c.title) +
+            "</option>",
+        )
+        .join("") +
+      "</select>" +
+      (revisionIndex < 0
+        ? '<div class="grid revision-grid">' +
+          chapters
+            .map(
+              (c, i) =>
+                '<section class="card"><span class="tag">Chapter ' +
+                c.id +
+                "</span><h3>" +
+                safe(c.title) +
+                "</h3><p>" +
+                safe(c.subtitle) +
+                '</p><p class="muted">5 definitions · ' +
+                revisionDeep[i].thinkers.length +
+                " thinkers · Nigerian examples · 3 exam prompts</p>" +
+                btn("Open study sheet", "rev:" + i, true) +
+                "</section>",
+            )
+            .join("") +
+          "</div>"
+        : (() => {
+            const c = chapters[revisionIndex],
+              d = revisionDeep[revisionIndex];
+            return (
+              '<div class="revision-toolbar">' +
+              btn("← All revision sheets", "rev:-1") +
+              '<span class="muted">Sheet ' +
+              (revisionIndex + 1) +
+              ' of 8</span></div><nav class="revision-jumps" aria-label="Study sheet sections">' +
+              [
+                "Key concepts",
+                "Theorists",
+                "Nigerian examples",
+                "Compare & contrast",
+                "Practice questions",
+                "Answer structure",
+              ]
+                .map(
+                  (label, i) =>
+                    '<button type="button" data-act="revjump:' +
+                    i +
+                    '">' +
+                    label +
+                    "</button>",
+                )
+                .join("") +
+              '</nav><div class="revision-detail"><div class="panel"><p class="tag">Chapter ' +
+              c.id +
+              " of 8</p><h2>" +
+              safe(c.title) +
+              '</h2><p class="muted">' +
+              safe(c.subtitle) +
+              '</p></div><section class="panel" id="revision-section-0"><h3>1. Key concepts and simple definitions</h3><dl class="revision-definitions">' +
+              d.concepts
+                .map(
+                  ([term, definition]) =>
+                    "<div><dt>" +
+                    safe(term) +
+                    "</dt><dd>" +
+                    safe(definition) +
+                    "</dd></div>",
+                )
+                .join("") +
+              '</dl></section><section class="panel" id="revision-section-1"><h3>2. Major theorists and contributions</h3>' +
+              d.thinkers
+                .map(
+                  ([name, contribution]) =>
+                    "<p><strong>" +
+                    safe(name) +
+                    ":</strong> " +
+                    safe(contribution) +
+                    "</p>",
+                )
+                .join("") +
+              '</section><section class="panel" id="revision-section-2"><h3>3. Nigerian examples</h3>' +
+              d.examples
+                .map((x) => '<p class="revision-example">' + safe(x) + "</p>")
+                .join("") +
+              '</section><section class="panel" id="revision-section-3"><h3>4. Compare and contrast</h3>' +
+              d.comparison.map((x) => "<p>" + safe(x) + "</p>").join("") +
+              '</section><section class="panel" id="revision-section-4"><h3>5. Likely exam-style practice questions</h3><p class="muted">Practice prompts, not predictions of the actual examination.</p><ol>' +
+              d.questions.map((q) => "<li>" + safe(q) + "</li>").join("") +
+              '</ol></section><section class="panel revision-answer" id="revision-section-5"><h3>How to structure your answer</h3><p>' +
+              safe(d.answer) +
+              '</p><p class="muted">Use: definition → explanation → Nigerian application → critical evaluation → conclusion.</p></section><div class="revision-actions">' +
+              (revisionIndex > 0
+                ? btn("← Previous sheet", "rev:" + (revisionIndex - 1))
+                : "") +
+              btn("All revision sheets", "rev:-1") +
+              btn("Study full chapter", "lesson:" + revisionIndex, true) +
+              (revisionIndex < 7
+                ? btn("Next sheet →", "rev:" + (revisionIndex + 1))
+                : "") +
+              "</div></div>"
+            );
+          })()) +
+      "</div>";
+  } else if (view === "mock") {
+    h = renderMock();
+  }
+  $("app").innerHTML = h;
+  if ($("examNavigator"))
+    $("examNavigator").ontoggle = (e) => {
+      examNavOpen = e.currentTarget.open;
+    };
+  if (view === "mock" && exam && !exam.finished) {
+    document.querySelector('[data-act="examprev"]').disabled = examIndex === 0;
+    document.querySelector('[data-act="examnext"]').disabled =
+      examIndex === exam.questions.length - 1;
+  }
+  document
+    .querySelectorAll("[data-act]")
+    .forEach((b) => (b.onclick = () => act(b.dataset.act)));
+  document
+    .querySelectorAll('input[name^="quiz"]')
+    .forEach(
+      (e) =>
+        (e.onchange = () =>
+          (answers[Number(e.name.slice(4))] = Number(e.value))),
+    );
+  document.querySelectorAll('input[name^="exam"]').forEach((e) => {
+    const record = () => {
+      if (exam && !exam.finished) {
+        exam.answers[Number(e.name.slice(4))] = Number(e.value);
+        persistExam();
+        const counter = document.getElementById("examAnswered");
+        if (counter) counter.textContent = Object.keys(exam.answers).length;
+        const bar = document.getElementById("examProgress");
+        if (bar)
+          bar.style.width =
+            (Object.keys(exam.answers).length / exam.questions.length) * 100 +
+            "%";
+        const number = document.querySelector(
+          '[data-act="examgoto:' + examIndex + '"]',
+        );
+        if (number) {
+          number.classList.add("answered");
+          number.setAttribute(
+            "aria-label",
+            "Question " + (examIndex + 1) + ", answered",
+          );
+        }
+      }
+    };
+    e.onchange = record;
+    e.onclick = record;
+  });
+  if ($("revisionSelect"))
+    $("revisionSelect").onchange = (e) => {
+      act("rev:" + e.target.value);
+    };
+  if ($("cardSelect"))
+    $("cardSelect").onchange = (e) => {
+      cardChapter = Number(e.target.value);
+      cardIndex = 0;
+      flip = false;
+      render();
+    };
+  updateTimer();
+  watchLesson();
+}
+function shuffledQuestions() {
+  const bank = chapters.flatMap((c, i) => {
+    const base = c.quiz.map((q) => ({ ...q, chapter: c.title }));
+    const review = flashcardBank[i].map((q, j) => {
+      const wrong = flashcardBank[i]
+        .filter((_, k) => k !== j)
+        .map((x) => x.answer)
+        .slice(0, 3);
+      const options = [q.answer, ...wrong];
+      const shift = (i + j) % 4;
+      for (let k = 0; k < shift; k++) options.push(options.shift());
+      return {
+        question: q.question,
+        options,
+        answer: options.indexOf(q.answer),
+        chapter: c.title,
+      };
+    });
+    const more = additionalExamQuestions[i].map((q) => ({
+      ...q,
+      chapter: c.title,
+    }));
+    return [...base, ...review, ...more];
+  });
+  const unique = new Map(
+    bank.map((q) => [q.chapter + "|" + q.question.toLowerCase(), q]),
+  );
+  return Array.from(unique.values())
+    .slice(0, 100)
+    .sort(() => Math.random() - 0.5);
+}
+function persistExam() {
+  try {
+    sessionStorage.setItem("pol225-exam", JSON.stringify(exam));
+  } catch {}
+}
+function startExam() {
+  examIndex = 0;
+  examNavOpen = false;
+  exam = {
+    questions: shuffledQuestions(),
+    answers: {},
+    ends: Date.now() + 100 * 60000,
+    finished: false,
+  };
+  persistExam();
+  if (interval) clearInterval(interval);
+  interval = setInterval(() => {
+    if (exam && !exam.finished && Date.now() >= exam.ends) {
+      finishExam();
+    } else updateTimer();
+  }, 1000);
+  render();
+}
+function updateTimer() {
+  if (!exam || exam.finished) return;
+  let n = $("countdown");
+  if (n) {
+    let t = Math.max(0, Math.ceil((exam.ends - Date.now()) / 1000));
+    n.textContent =
+      String(Math.floor(t / 60)).padStart(2, "0") +
+      ":" +
+      String(t % 60).padStart(2, "0");
+  }
+  if (Date.now() >= exam.ends) finishExam();
+}
+function finishExam() {
+  if (!exam || exam.finished) return;
+  exam.finished = true;
+  exam.finishedAt = Date.now();
+  exam.score = exam.questions.filter(
+    (q, i) => exam.answers[i] === q.answer,
+  ).length;
+  progress.attempts.push({
+    date: exam.finishedAt,
+    score: exam.score,
+    total: exam.questions.length,
+  });
+  save();
+  persistExam();
+  if (interval) clearInterval(interval);
+  render();
+}
+function renderMock() {
+  if (!exam)
+    return (
+      '<div class="reading"><p class="tag">Timed assessment</p><h1>POL225 Mock Examination</h1><div class="panel"><h2>100 questions · 100 minutes</h2><p>100 multiple-choice questions covering all eight chapters. The examination submits automatically when time runs out. You can review every correct answer at the end.</p>' +
+      btn("Begin exam", "examstart", true) +
+      "</div>" +
+      (progress.attempts.length
+        ? '<p class="muted">Previous score: ' +
+          progress.attempts.at(-1).score +
+          "/" +
+          progress.attempts.at(-1).total +
+          "</p>"
+        : "") +
+      "</div>"
+    );
+  if (exam.finished)
+    return (
+      '<div class="reading"><p class="tag">Results</p><h1>Mock exam score: ' +
+      exam.score +
+      "/" +
+      exam.questions.length +
+      '</h1><div class="panel"><p>' +
+      Math.round((exam.score / exam.questions.length) * 100) +
+      "% · Review answers and retry when ready.</p>" +
+      btn("New examination", "examstart", true) +
+      "</div>" +
+      exam.questions
+        .map(
+          (q, i) =>
+            '<div class="panel"><span class="tag">' +
+            safe(q.chapter) +
+            "</span><h2>" +
+            (i + 1) +
+            ". " +
+            safe(q.question) +
+            '</h2><p class="' +
+            (exam.answers[i] === q.answer ? "" : "error") +
+            '">Your answer: ' +
+            safe(q.options[exam.answers[i]] || "Not answered") +
+            "</p><p><strong>Correct:</strong> " +
+            safe(q.options[q.answer]) +
+            "</p></div>",
+        )
+        .join("") +
+      "</div>"
+    );
+  return (
+    '<div class="reading exam-layout"><div class="sticky exam-top"><strong>POL225 Mock Exam</strong><div class="timer" id="countdown">100:00</div>' +
+    btn("Submit exam", "examsubmit", true) +
+    '</div><div class="exam-status"><span>Question ' +
+    (examIndex + 1) +
+    " of " +
+    exam.questions.length +
+    '</span><span>Answered <strong id="examAnswered">' +
+    Object.keys(exam.answers).length +
+    "</strong> / " +
+    exam.questions.length +
+    '</span></div><div class="progress"><i id="examProgress" style="width:' +
+    (Object.keys(exam.answers).length / exam.questions.length) * 100 +
+    '%"></i></div><section class="panel exam-question" tabindex="-1" aria-label="Current exam question"><span class="tag">' +
+    safe(exam.questions[examIndex].chapter) +
+    "</span><h2>" +
+    (examIndex + 1) +
+    ". " +
+    safe(exam.questions[examIndex].question) +
+    "</h2>" +
+    exam.questions[examIndex].options
+      .map(
+        (o, j) =>
+          '<label class="option"><input type="radio" name="exam' +
+          examIndex +
+          '" value="' +
+          j +
+          '" ' +
+          (exam.answers[examIndex] === j ? "checked" : "") +
+          "> " +
+          safe(o) +
+          "</label>",
+      )
+      .join("") +
+    '</section><div class="exam-actions">' +
+    btn("← Previous", "examprev") +
+    btn("Next →", "examnext", true) +
+    '</div><details class="panel exam-navigator" id="examNavigator" ' +
+    (examNavOpen ? "open" : "") +
+    '><summary>Question navigator <span>Show / hide all 100 questions</span></summary><p class="muted">Select any question. Answered questions have a green background; the current question has an outline.</p><div class="exam-numbers">' +
+    exam.questions
+      .map(
+        (q, i) =>
+          '<button type="button" class="exam-number ' +
+          (i === examIndex ? "current " : "") +
+          (exam.answers[i] !== undefined ? "answered" : "") +
+          '" aria-label="Question ' +
+          (i + 1) +
+          ", " +
+          (exam.answers[i] !== undefined ? "answered" : "unanswered") +
+          '" ' +
+          (i === examIndex ? 'aria-current="step"' : "") +
+          ' data-act="examgoto:' +
+          i +
+          '">' +
+          (i + 1) +
+          "</button>",
+      )
+      .join("") +
+    "</div></details></div>"
+  );
+}
+function act(a) {
+  if (a.startsWith("revjump:")) {
+    const section = document.getElementById(
+      "revision-section-" + Number(a.split(":")[1]),
+    );
+    if (section) {
+      section.setAttribute("tabindex", "-1");
+      section.focus({ preventScroll: true });
+      section.scrollIntoView({ block: "start" });
+    }
+    return;
+  }
+  if (a === "chapters" || a === "mock") return go(a);
+  if (a.startsWith("rev:")) {
+    revisionIndex = Number(a.split(":")[1]);
+    return go("revision");
+  }
+  if (a.startsWith("examgoto:")) {
+    examIndex = Number(a.split(":")[1]);
+    render();
+    focusExamQuestion();
+    return;
+  }
+  if (a === "examprev" || a === "examnext") {
+    examIndex = Math.max(
+      0,
+      Math.min(
+        exam.questions.length - 1,
+        examIndex + (a === "examprev" ? -1 : 1),
+      ),
+    );
+    render();
+    focusExamQuestion();
+    return;
+  }
+  if (a.startsWith("lessonjump:")) {
+    jumpLesson(Number(a.split(":")[1]));
+    return;
+  }
+  if (a === "lessonfinish") {
+    document
+      .getElementById("lesson-completion")
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
+  if (a.startsWith("lessonmode:")) {
+    lessonMode = a.split(":")[1];
+    render();
+    return;
+  }
+  if (a.startsWith("lesson:")) {
+    chosen = Number(a.split(":")[1]);
+    return go("lesson");
+  }
+  if (a === "complete") {
+    if (!progress.done.includes(chapters[chosen].id))
+      progress.done.push(chapters[chosen].id);
+    save();
+  } else if (a === "quiz") {
+    answers = {};
+    submitted = false;
+    return go("quiz");
+  } else if (a === "grade") {
+    if (Object.keys(answers).length !== 5) {
+      alert("Answer all five questions first.");
+      return;
+    }
+    submitted = true;
+    progress.scores[chapters[chosen].id] = chapters[chosen].quiz.filter(
+      (q, i) => answers[i] === q.answer,
+    ).length;
+    save();
+  } else if (a === "retake") {
+    answers = {};
+    submitted = false;
+  } else if (a === "flip") {
+    flip = !flip;
+  } else if (a === "cardprev") {
+    cardIndex =
+      (cardIndex + (cardChapter === -1 ? 39 : 4)) %
+      (cardChapter === -1 ? 40 : 5);
+    flip = false;
+  } else if (a === "cardnext") {
+    cardIndex = (cardIndex + 1) % (cardChapter === -1 ? 40 : 5);
+    flip = false;
+  } else if (a === "cardreset") {
+    cardIndex = 0;
+    flip = false;
+  } else if (a === "known") {
+    const d = flashcardBank.flatMap((items, ci) =>
+      items.map((item, idx) => ({ chapterIndex: ci, originalIndex: idx })),
+    );
+    const q = (
+      cardChapter === -1 ? d : d.filter((x) => x.chapterIndex === cardChapter)
+    )[cardIndex];
+    progress.known["flash-v2-" + (q.chapterIndex + 1) + ":" + q.originalIndex] =
+      true;
+    save();
+    cardIndex = (cardIndex + 1) % (cardChapter === -1 ? 40 : 5);
+    flip = false;
+  } else if (a === "examstart") return startExam();
+  else if (a === "examsubmit") {
+    if (confirm("Submit the examination now?")) finishExam();
+    return;
+  }
+  render();
+}
+try {
+  const old = JSON.parse(sessionStorage.getItem("pol225-exam"));
+  if (old && Array.isArray(old.questions) && old.questions.length === 100) {
+    exam = old;
+    if (!old.finished) {
+      interval = setInterval(updateTimer, 1000);
+      if (Date.now() >= old.ends) finishExam();
+    }
+  }
+} catch {}
+window.onhashchange = () => {
+  const h = location.hash.substring(1);
+  if (navs.some((x) => x[0] === h)) go(h);
+};
+if (navs.some((x) => x[0] === location.hash.substring(1)))
+  view = location.hash.substring(1);
+render();
+function focusExamQuestion() {
+  const question = document.querySelector(".exam-question");
+  if (question) {
+    question.focus({ preventScroll: true });
+    question.scrollIntoView({ block: "start" });
+  }
+}
