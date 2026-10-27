@@ -1853,6 +1853,11 @@ let view = "home",
   examNavOpen = false,
   revisionIndex = -1,
   lessonMode = "deep";
+let quizDrafts = {},
+  quizIndex = 0,
+  lastAssessment = null,
+  autoSaveOk = true,
+  quizObserver = null;
 let progress = { done: [], scores: {}, known: {}, attempts: [] };
 try {
   const p = JSON.parse(localStorage.getItem("pol225-v16"));
@@ -1875,7 +1880,9 @@ const btn = (label, action, primary = false) =>
   "</span>" +
   "</button>";
 function go(v) {
+  if (view === "mock" && v !== "mock") pauseExam();
   view = v;
+  if (v === "mock") resumeExam();
   location.hash = v;
   render();
   scrollTo(0, 0);
@@ -1940,6 +1947,7 @@ function render() {
   let h = "";
   if (view === "home") {
     h =
+      resumeBanner() +
       '<section class="hero"><span class="tag">Your political economy learning companion</span><h1>Understand the world.<br>Own your exam.</h1><p>Eight clear chapters, Nigeria-focused examples, self-check quizzes, flashcards and a timed mock examination. Learn complex ideas in easy English.</p>' +
       btn("Explore chapters", "chapters") +
       " " +
@@ -2083,10 +2091,15 @@ function render() {
       "<h1>" +
       safe(c.title) +
       ' · Quiz</h1><p class="muted">Answer all five questions; explanations appear after grading.</p>' +
+      saveNote() +
       c.quiz
         .map(
           (q, i) =>
-            '<section class="panel"><h2>' +
+            '<section class="panel quiz-question" id="quiz-question-' +
+            i +
+            '" data-quiz-index="' +
+            i +
+            '" tabindex="-1"><h2>' +
             (i + 1) +
             ". " +
             safe(q.question) +
@@ -2331,7 +2344,9 @@ function render() {
   }
   if ($("examNavigator"))
     $("examNavigator").ontoggle = (e) => {
+      if (!e.currentTarget.isConnected) return;
       examNavOpen = e.currentTarget.open;
+      persistExam();
     };
   if (view === "mock" && exam && !exam.finished) {
     document.querySelector('[data-act="examprev"]').disabled = examIndex === 0;
@@ -2341,13 +2356,14 @@ function render() {
   document
     .querySelectorAll("[data-act]")
     .forEach((b) => (b.onclick = () => act(b.dataset.act)));
-  document
-    .querySelectorAll('input[name^="quiz"]')
-    .forEach(
-      (e) =>
-        (e.onchange = () =>
-          (answers[Number(e.name.slice(4))] = Number(e.value))),
-    );
+  document.querySelectorAll('input[name^="quiz"]').forEach(
+    (e) =>
+      (e.onchange = () => {
+        quizIndex = Number(e.name.slice(4));
+        answers[quizIndex] = Number(e.value);
+        saveQuiz();
+      }),
+  );
   document.querySelectorAll('input[name^="exam"]').forEach((e) => {
     const record = () => {
       if (exam && !exam.finished) {
@@ -2388,6 +2404,8 @@ function render() {
     };
   updateTimer();
   watchLesson();
+  watchQuiz();
+  updateSaveStatus();
 }
 function shuffledQuestions() {
   const bank = chapters.flatMap((c, i) => {
@@ -2421,6 +2439,12 @@ function shuffledQuestions() {
     .sort(() => Math.random() - 0.5);
 }
 function persistExam() {
+  if (exam) {
+    exam.index = examIndex;
+    exam.navigatorOpen = examNavOpen;
+  }
+  persistAssessments();
+  // Keep the previous session format readable during the upgrade.
   try {
     sessionStorage.setItem("pol225-exam", JSON.stringify(exam));
   } catch {}
@@ -2433,18 +2457,26 @@ function startExam() {
     answers: {},
     ends: Date.now() + 100 * 60000,
     finished: false,
+    id: "exam-" + Date.now() + "-" + Math.random().toString(36).slice(2),
+    remainingMs: 100 * 60000,
+    paused: false,
   };
+  lastAssessment = { kind: "exam" };
   persistExam();
   if (interval) clearInterval(interval);
   interval = setInterval(() => {
-    if (exam && !exam.finished && Date.now() >= exam.ends) {
+    if (exam && !exam.finished && !exam.paused && Date.now() >= exam.ends) {
       finishExam();
     } else updateTimer();
   }, 1000);
   render();
 }
 function updateTimer() {
-  if (!exam || exam.finished) return;
+  if (!exam || exam.finished || exam.paused) return;
+  if (Date.now() - (exam.checkpointAt || 0) >= 5000) {
+    exam.checkpointAt = Date.now();
+    persistExam();
+  }
   let n = $("countdown");
   if (n) {
     let t = Math.max(0, Math.ceil((exam.ends - Date.now()) / 1000));
@@ -2462,11 +2494,13 @@ function finishExam() {
   exam.score = exam.questions.filter(
     (q, i) => exam.answers[i] === q.answer,
   ).length;
-  progress.attempts.push({
-    date: exam.finishedAt,
-    score: exam.score,
-    total: exam.questions.length,
-  });
+  if (!progress.attempts.some((a) => a.id === exam.id))
+    progress.attempts.push({
+      id: exam.id,
+      date: exam.finishedAt,
+      score: exam.score,
+      total: exam.questions.length,
+    });
   save();
   persistExam();
   if (interval) clearInterval(interval);
@@ -2475,7 +2509,7 @@ function finishExam() {
 function renderMock() {
   if (!exam)
     return (
-      '<div class="reading"><p class="tag">Timed assessment</p><h1>POL225 Mock Examination</h1><div class="panel"><h2>100 questions · 100 minutes</h2><p>100 multiple-choice questions covering all eight chapters. The examination submits automatically when time runs out. You can review every correct answer at the end.</p>' +
+      '<div class="reading"><p class="tag">Timed assessment</p><h1>POL225 Mock Examination</h1><div class="panel"><h2>100 questions · 100 minutes</h2><p>100 multiple-choice questions covering all eight chapters. The examination submits automatically when time runs out. You can review every correct answer at the end. Answers save on this device; the timer pauses when you leave the exam or close the app.</p>' +
       btn("Begin exam", "examstart", true) +
       "</div>" +
       (progress.attempts.length
@@ -2521,7 +2555,11 @@ function renderMock() {
   return (
     '<div class="reading exam-layout"><div class="sticky exam-top"><strong>POL225 Mock Exam</strong><div class="timer" id="countdown">100:00</div>' +
     btn("Submit exam", "examsubmit", true) +
-    '</div><div class="exam-status"><span>Question ' +
+    "</div>" +
+    saveNote() +
+    '<div class="save-pause">' +
+    btn("Save & pause", "exampause") +
+    '<span class="muted">The timer pauses while you are away.</span></div><div class="exam-status"><span>Question ' +
     (examIndex + 1) +
     " of " +
     exam.questions.length +
@@ -2581,6 +2619,23 @@ function renderMock() {
   );
 }
 function act(a) {
+  if (a === "resume:exam") {
+    lastAssessment = { kind: "exam" };
+    go("mock");
+    focusExamQuestion();
+    return;
+  }
+  if (a.startsWith("resume:quiz:")) {
+    chosen = Number(a.split(":")[2]);
+    openQuiz();
+    return;
+  }
+  if (a === "exampause") {
+    pauseExam();
+    go("home");
+    return;
+  }
+
   if (a.startsWith("revjump:")) {
     const section = document.getElementById(
       "revision-section-" + Number(a.split(":")[1]),
@@ -2599,6 +2654,7 @@ function act(a) {
   }
   if (a.startsWith("examgoto:")) {
     examIndex = Number(a.split(":")[1]);
+    persistExam();
     render();
     focusExamQuestion();
     return;
@@ -2611,6 +2667,7 @@ function act(a) {
         examIndex + (a === "examprev" ? -1 : 1),
       ),
     );
+    persistExam();
     render();
     focusExamQuestion();
     return;
@@ -2639,9 +2696,8 @@ function act(a) {
       progress.done.push(chapters[chosen].id);
     save();
   } else if (a === "quiz") {
-    answers = {};
-    submitted = false;
-    return go("quiz");
+    openQuiz();
+    return;
   } else if (a === "grade") {
     if (Object.keys(answers).length !== 5) {
       alert("Answer all five questions first.");
@@ -2652,9 +2708,12 @@ function act(a) {
       (q, i) => answers[i] === q.answer,
     ).length;
     save();
+    saveQuiz();
   } else if (a === "retake") {
     answers = {};
     submitted = false;
+    quizIndex = 0;
+    saveQuiz();
   } else if (a === "flip") {
     flip = !flip;
   } else if (a === "cardprev") {
@@ -2687,27 +2746,344 @@ function act(a) {
   }
   render();
 }
-try {
-  const old = JSON.parse(sessionStorage.getItem("pol225-exam"));
-  if (old && Array.isArray(old.questions) && old.questions.length === 100) {
-    exam = old;
-    if (!old.finished) {
-      interval = setInterval(updateTimer, 1000);
-      if (Date.now() >= old.ends) finishExam();
-    }
-  }
-} catch {}
+restoreAssessments();
 window.onhashchange = () => {
   const h = location.hash.substring(1);
   if (view !== h && navs.some((x) => x[0] === h)) go(h);
 };
-if (navs.some((x) => x[0] === location.hash.substring(1)))
-  view = location.hash.substring(1);
+const initialHash = location.hash.substring(1);
+if (
+  initialHash === "quiz" &&
+  lastAssessment?.kind === "quiz" &&
+  quizDrafts[lastAssessment.chapter]
+) {
+  chosen = lastAssessment.chapter;
+  loadQuiz();
+  view = "quiz";
+} else if (navs.some((x) => x[0] === initialHash)) view = initialHash;
+if (view === "mock") resumeExam();
+if (exam && !exam.finished && exam.remainingMs <= 0) finishExam();
 render();
+if (view === "quiz") scrollQuiz();
+window.addEventListener("pagehide", () => {
+  pauseExam();
+  if (view === "quiz") saveQuiz();
+  else persistAssessments();
+});
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) {
+    pauseExam();
+    if (view === "quiz") saveQuiz();
+  } else if (view === "mock") {
+    resumeExam();
+    updateTimer();
+  }
+});
+window.addEventListener("pageshow", () => {
+  if (view === "mock" && !document.hidden) resumeExam();
+});
 function focusExamQuestion() {
   const question = document.querySelector(".exam-question");
   if (question) {
     question.focus({ preventScroll: true });
     question.scrollIntoView({ block: "start" });
   }
+}
+
+function validAnswers(value, count) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return {};
+  return Object.fromEntries(
+    Object.entries(value).filter(
+      ([k, v]) =>
+        /^\d+$/.test(k) &&
+        Number(k) < count &&
+        Number.isInteger(v) &&
+        v >= 0 &&
+        v < 4,
+    ),
+  );
+}
+function validExam(value) {
+  return (
+    value &&
+    Array.isArray(value.questions) &&
+    value.questions.length === 100 &&
+    value.questions.every(
+      (q) =>
+        q &&
+        typeof q.question === "string" &&
+        typeof q.chapter === "string" &&
+        Array.isArray(q.options) &&
+        q.options.length === 4 &&
+        q.options.every((x) => typeof x === "string") &&
+        Number.isInteger(q.answer) &&
+        q.answer >= 0 &&
+        q.answer < 4,
+    ) &&
+    Number.isFinite(value.remainingMs) &&
+    value.remainingMs >= 0 &&
+    value.remainingMs <= 100 * 60000
+  );
+}
+function restoreAssessments() {
+  let stored;
+  try {
+    stored = JSON.parse(localStorage.getItem("pol225-assessments-v3"));
+  } catch {}
+  if (stored?.version === 3) {
+    for (const [key, draft] of Object.entries(stored.quizzes || {})) {
+      if (/^[0-7]$/.test(key) && draft && typeof draft === "object")
+        quizDrafts[key] = {
+          answers: validAnswers(draft.answers, 5),
+          index: Math.max(0, Math.min(4, Math.floor(Number(draft.index) || 0))),
+          submitted: !!draft.submitted,
+          updatedAt: Number(draft.updatedAt) || 0,
+        };
+    }
+    if (validExam(stored.exam)) {
+      exam = {
+        ...stored.exam,
+        answers: validAnswers(stored.exam.answers, 100),
+        paused: true,
+      };
+      examIndex = Math.max(
+        0,
+        Math.min(99, Math.floor(Number(exam.index) || 0)),
+      );
+      examNavOpen = !!exam.navigatorOpen;
+      exam.id =
+        typeof exam.id === "string" ? exam.id : "recovered-" + Date.now();
+    }
+    if (
+      stored.last?.kind === "exam" ||
+      (stored.last?.kind === "quiz" &&
+        Number.isInteger(stored.last.chapter) &&
+        quizDrafts[stored.last.chapter])
+    )
+      lastAssessment = stored.last;
+  }
+  if (!exam) {
+    try {
+      const old = JSON.parse(sessionStorage.getItem("pol225-exam"));
+      if (old && Number.isFinite(old.ends)) {
+        const candidate = {
+          ...old,
+          remainingMs: Math.max(
+            0,
+            Math.min(100 * 60000, old.ends - Date.now()),
+          ),
+        };
+        if (validExam(candidate)) {
+          exam = {
+            ...candidate,
+            answers: validAnswers(candidate.answers, 100),
+            paused: true,
+            id: candidate.id || "legacy-" + candidate.ends,
+          };
+          examIndex = Math.max(
+            0,
+            Math.min(99, Math.floor(Number(exam.index) || 0)),
+          );
+          examNavOpen = !!exam.navigatorOpen;
+          if (!lastAssessment) lastAssessment = { kind: "exam" };
+          persistAssessments();
+        }
+      }
+    } catch {}
+  }
+}
+function examRemaining() {
+  if (!exam || exam.finished) return 0;
+  return Math.max(
+    0,
+    Math.min(
+      100 * 60000,
+      exam.paused ? exam.remainingMs : exam.ends - Date.now(),
+    ),
+  );
+}
+function persistAssessments() {
+  const savedExam = exam
+    ? {
+        ...exam,
+        index: examIndex,
+        navigatorOpen: examNavOpen,
+        remainingMs: examRemaining(),
+        paused: true,
+      }
+    : null;
+  try {
+    localStorage.setItem(
+      "pol225-assessments-v3",
+      JSON.stringify({
+        version: 3,
+        exam: savedExam,
+        quizzes: quizDrafts,
+        last: lastAssessment,
+        savedAt: Date.now(),
+      }),
+    );
+    autoSaveOk = true;
+  } catch {
+    autoSaveOk = false;
+  }
+  updateSaveStatus();
+}
+function pauseExam() {
+  if (!exam || exam.finished || exam.paused) return;
+  exam.remainingMs = examRemaining();
+  exam.paused = true;
+  if (interval) {
+    clearInterval(interval);
+    interval = null;
+  }
+  persistExam();
+}
+function resumeExam() {
+  if (!exam || exam.finished || document.hidden) return;
+  if (exam.paused) {
+    exam.ends = Date.now() + exam.remainingMs;
+    exam.paused = false;
+  }
+  lastAssessment = { kind: "exam" };
+  if (!interval) interval = setInterval(updateTimer, 1000);
+  persistExam();
+}
+function loadQuiz() {
+  const draft = quizDrafts[chosen];
+  answers = draft ? { ...draft.answers } : {};
+  submitted = draft ? draft.submitted : false;
+  quizIndex = draft ? draft.index : 0;
+}
+function openQuiz() {
+  loadQuiz();
+  saveQuiz();
+  go("quiz");
+  scrollQuiz();
+}
+function saveQuiz() {
+  quizDrafts[chosen] = {
+    answers: { ...answers },
+    index: quizIndex,
+    submitted,
+    updatedAt: Date.now(),
+  };
+  lastAssessment = { kind: "quiz", chapter: chosen };
+  persistAssessments();
+}
+function scrollQuiz() {
+  requestAnimationFrame(() => {
+    const section = document.getElementById("quiz-question-" + quizIndex);
+    if (section) {
+      section.focus({ preventScroll: true });
+      section.scrollIntoView({ block: "start", behavior: "instant" });
+    }
+  });
+}
+function watchQuiz() {
+  if (quizObserver) {
+    quizObserver.disconnect();
+    quizObserver = null;
+  }
+  if (
+    view !== "quiz" ||
+    submitted ||
+    typeof IntersectionObserver === "undefined"
+  )
+    return;
+  quizObserver = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries)
+        if (entry.isIntersecting) {
+          const next = Number(entry.target.dataset.quizIndex);
+          if (next !== quizIndex) {
+            quizIndex = next;
+            saveQuiz();
+          }
+        }
+    },
+    { rootMargin: "-10% 0px -65% 0px" },
+  );
+  document
+    .querySelectorAll("[data-quiz-index]")
+    .forEach((e) => quizObserver.observe(e));
+}
+function saveNote() {
+  return (
+    '<p class="save-note" id="assessmentSaveStatus" role="status" aria-live="polite">' +
+    saveMessage() +
+    "</p>"
+  );
+}
+function saveMessage() {
+  return autoSaveOk
+    ? "Auto-save on · Saved on this device"
+    : "Auto-save unavailable. Keep this tab open; this browser could not save your progress.";
+}
+function updateSaveStatus() {
+  const note = document.getElementById("assessmentSaveStatus");
+  if (note && note.textContent !== saveMessage())
+    note.textContent = saveMessage();
+  if (note) note.classList.toggle("save-error", !autoSaveOk);
+}
+function resumeBanner() {
+  const candidates = [];
+  if (exam && !exam.finished) candidates.push({ kind: "exam" });
+  for (const [chapter, d] of Object.entries(quizDrafts))
+    if (!d.submitted)
+      candidates.push({
+        kind: "quiz",
+        chapter: Number(chapter),
+        updatedAt: d.updatedAt,
+      });
+  candidates.sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+  const active = candidates.find(
+    (c) =>
+      c.kind === lastAssessment?.kind &&
+      (c.kind === "exam" || c.chapter === lastAssessment.chapter),
+  );
+  if (active)
+    (candidates.splice(candidates.indexOf(active), 1),
+      candidates.unshift(active));
+  if (!candidates.length) return "";
+  return (
+    '<section class="panel resume-panel" aria-labelledby="resumeTitle"><p class="tag">Your saved progress</p><h2 id="resumeTitle">Continue where you left off</h2>' +
+    candidates
+      .map((c) => {
+        if (c.kind === "exam") {
+          const seconds = Math.ceil(examRemaining() / 1000);
+          const savedTime =
+            String(Math.floor(seconds / 60)).padStart(2, "0") +
+            ":" +
+            String(seconds % 60).padStart(2, "0");
+          return (
+            '<div class="resume-item"><div><strong>Mock examination</strong><p>Question ' +
+            (examIndex + 1) +
+            " of 100 · " +
+            Object.keys(exam.answers).length +
+            " answered · " +
+            savedTime +
+            " remaining. Timer paused.</p></div>" +
+            btn("Continue mock exam", "resume:exam", true) +
+            "</div>"
+          );
+        }
+        const d = quizDrafts[c.chapter];
+        return (
+          '<div class="resume-item"><div><strong>Chapter ' +
+          (c.chapter + 1) +
+          " practice quiz</strong><p>" +
+          safe(chapters[c.chapter].title) +
+          " · Question " +
+          (d.index + 1) +
+          " of 5 · " +
+          Object.keys(d.answers).length +
+          " answered</p></div>" +
+          btn("Continue quiz", "resume:quiz:" + c.chapter, true) +
+          "</div>"
+        );
+      })
+      .join("") +
+    '<p class="muted resume-hint">Saved in this browser on this device. Clearing browser data removes saved progress.</p></section>'
+  );
 }

@@ -6,7 +6,7 @@ const html = fs.readFileSync("index.html", "utf8");
 const source = fs.readFileSync("app.js", "utf8");
 function app(saved = {}) {
   const dom = new JSDOM(html, {
-    url: "https://pol225.test",
+    url: "https://pol225.test/" + (saved.hash || ""),
     runScripts: "outside-only",
     pretendToBeVisual: true,
   });
@@ -17,6 +17,9 @@ function app(saved = {}) {
   w.confirm = () => true;
   if (saved.progress) w.localStorage.setItem("pol225-v16", saved.progress);
   if (saved.exam) w.sessionStorage.setItem("pol225-exam", saved.exam);
+  if (saved.assessments)
+    w.localStorage.setItem("pol225-assessments-v3", saved.assessments);
+  if (saved.now) w.Date.now = () => saved.now;
   w.eval(source);
   const click = (selector) => {
     const e = w.document.querySelector(selector);
@@ -237,5 +240,184 @@ test("lesson scroll behavior respects reduced motion and its unsupported-browser
     assert.equal(observed.at(-1), "smooth");
   } finally {
     a.close();
+  }
+});
+
+test("mock exam resumes in a fresh browser session with question order, answers, position and paused time", () => {
+  const a = app();
+  let stored;
+  try {
+    a.click('[data-go="mock"]');
+    a.action("examstart");
+    a.action("examgoto:41");
+    a.click('input[name="exam41"][value="2"]');
+    a.action("examgoto:72");
+    a.action("exampause");
+    stored = a.w.localStorage.getItem("pol225-assessments-v3");
+    assert.match(
+      a.doc.querySelector(".resume-panel").textContent,
+      /Question 73 of 100/,
+    );
+  } finally {
+    a.close();
+  }
+  const b = app({ assessments: stored, now: Date.now() + 86400000 });
+  try {
+    assert.match(
+      b.doc.querySelector(".resume-panel").textContent,
+      /Continue where you left off/,
+    );
+    b.action("resume:exam");
+    assert.match(
+      b.doc.querySelector(".exam-status").textContent,
+      /Question 73 of 100/,
+    );
+    assert.equal(b.doc.querySelector("#examAnswered").textContent, "1");
+    assert.match(
+      b.doc.querySelector("#countdown").textContent,
+      /^(100:00|99:59)$/,
+    );
+    const restored = JSON.parse(
+      b.w.localStorage.getItem("pol225-assessments-v3"),
+    ).exam;
+    assert.deepEqual(restored.questions, JSON.parse(stored).exam.questions);
+    b.action("examgoto:41");
+    assert.equal(b.doc.querySelector('input[value="2"]').checked, true);
+  } finally {
+    b.close();
+  }
+});
+
+test("chapter quiz restores the chapter, answers and last question after close and reopen", () => {
+  const a = app();
+  let stored;
+  try {
+    a.click('[data-go="chapters"]');
+    a.action("lesson:5");
+    a.action("quiz");
+    a.click('input[name="quiz3"][value="1"]');
+    stored = a.w.localStorage.getItem("pol225-assessments-v3");
+  } finally {
+    a.close();
+  }
+  const b = app({ assessments: stored });
+  try {
+    assert.match(
+      b.doc.querySelector(".resume-panel").textContent,
+      /Chapter 6 practice quiz/,
+    );
+    assert.match(
+      b.doc.querySelector(".resume-panel").textContent,
+      /Question 4 of 5/,
+    );
+    b.action("resume:quiz:5");
+    assert.match(b.doc.querySelector("h1").textContent, /Colonialism/);
+    assert.equal(
+      b.doc.querySelector('input[name="quiz3"][value="1"]').checked,
+      true,
+    );
+    for (let i = 0; i < 5; i++)
+      b.click('input[name="quiz' + i + '"][value="0"]');
+    b.action("grade");
+    assert.equal(
+      JSON.parse(b.w.localStorage.getItem("pol225-assessments-v3")).quizzes["5"]
+        .submitted,
+      true,
+    );
+    b.action("retake");
+    assert.equal(b.doc.querySelectorAll("input:checked").length, 0);
+  } finally {
+    b.close();
+  }
+  const c = app({ assessments: stored, hash: "#quiz" });
+  try {
+    assert.match(c.doc.querySelector("h1").textContent, /Colonialism/);
+    assert.equal(
+      c.doc.querySelector('input[name="quiz3"][value="1"]').checked,
+      true,
+    );
+  } finally {
+    c.close();
+  }
+});
+
+test("exam timer pauses on visibility change and resumes without consuming time away", () => {
+  const a = app();
+  try {
+    let now = Date.now();
+    a.w.Date.now = () => now;
+    a.click('[data-go="mock"]');
+    a.action("examstart");
+    now += 20000;
+    Object.defineProperty(a.doc, "hidden", { configurable: true, value: true });
+    a.doc.dispatchEvent(new a.w.Event("visibilitychange"));
+    const paused = JSON.parse(a.w.localStorage.getItem("pol225-assessments-v3"))
+      .exam.remainingMs;
+    assert.equal(paused, 100 * 60000 - 20000);
+    now += 7200000;
+    Object.defineProperty(a.doc, "hidden", {
+      configurable: true,
+      value: false,
+    });
+    a.doc.dispatchEvent(new a.w.Event("visibilitychange"));
+    assert.equal(
+      JSON.parse(a.w.localStorage.getItem("pol225-assessments-v3")).exam
+        .remainingMs,
+      paused,
+    );
+    assert.equal(a.doc.querySelector("#countdown").textContent, "99:40");
+  } finally {
+    a.close();
+  }
+});
+
+test("malformed saved assessments are ignored and blocked storage produces an honest warning", () => {
+  const a = app({
+    assessments: '{"version":3,"exam":{"questions":[]},"quizzes":{"99":{}}}',
+  });
+  try {
+    assert.ok(a.doc.querySelector(".hero"));
+    assert.equal(a.doc.querySelector(".resume-panel"), null);
+    a.w.Storage.prototype.setItem = () => {
+      throw new Error("storage blocked");
+    };
+    a.click('[data-go="mock"]');
+    a.action("examstart");
+    assert.match(
+      a.doc.querySelector("#assessmentSaveStatus").textContent,
+      /Auto-save unavailable/,
+    );
+  } finally {
+    a.close();
+  }
+});
+
+test("active exam expiry is recorded once and completed work is not offered as unfinished", () => {
+  const a = app();
+  let state, progressSaved;
+  try {
+    let now = Date.now();
+    a.w.Date.now = () => now;
+    a.click('[data-go="mock"]');
+    a.action("examstart");
+    now += 100 * 60000 + 1;
+    a.w.updateTimer();
+    assert.match(a.doc.querySelector("h1").textContent, /Mock exam score/);
+    state = a.w.localStorage.getItem("pol225-assessments-v3");
+    progressSaved = a.w.localStorage.getItem("pol225-v16");
+  } finally {
+    a.close();
+  }
+  const b = app({ assessments: state, progress: progressSaved });
+  try {
+    assert.equal(b.doc.querySelector(".resume-panel"), null);
+    b.click('[data-go="mock"]');
+    assert.match(b.doc.querySelector("h1").textContent, /Mock exam score/);
+    assert.equal(
+      JSON.parse(b.w.localStorage.getItem("pol225-v16")).attempts.length,
+      1,
+    );
+  } finally {
+    b.close();
   }
 });

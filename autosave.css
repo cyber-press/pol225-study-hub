@@ -1,0 +1,66 @@
+.resume-panel {
+  margin: 28px 0;
+  border-color: #accfb9;
+  background: linear-gradient(135deg, #fff, #eef7f0);
+}
+.resume-panel h2 {
+  margin: 10px 0 16px;
+  font-size: clamp(22px, 3vw, 28px);
+}
+.resume-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px 0;
+  border-top: 1px solid #d9e8dc;
+}
+.resume-item p {
+  margin: 8px 0 0;
+  font-size: 14px;
+}
+.resume-item .btn {
+  flex-shrink: 0;
+  min-height: 46px;
+}
+.resume-hint {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.save-note {
+  color: #315f43;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 16px 0;
+}
+.save-note.save-error {
+  background: #fff1ed;
+  color: #7b3524;
+  padding: 12px;
+  border-radius: 10px;
+}
+.save-pause {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.save-pause .muted {
+  font-size: 13px;
+}
+.quiz-question {
+  scroll-margin-top: 20px;
+}
+@media (max-width: 640px) {
+  .resume-item {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .resume-item .btn {
+    width: 100%;
+  }
+  .resume-panel {
+    padding: 20px;
+  }
+}

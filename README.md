@@ -19,7 +19,7 @@ Use Node.js 22 or newer, then run `npm ci` and `npm test`. The jsdom interaction
 - Exam boundary buttons disable appropriately, and question jumps move focus and scroll back to the question.
 - Keyboard focus styles, skip link, and 44px minimum touch targets on revised controls.
 
-Progress remains in local storage; the current exam remains in session storage.
+Progress, unfinished chapter quizzes and the current exam are saved in local storage on this browser and device. Older session-only exams are migrated when available.
 
 ## Deployment
 
@@ -34,3 +34,13 @@ Flashcard controls retain keyboard focus through rerenders. Seven interaction te
 ## v2.1.2 navigation
 
 Navigation and main study actions now use lightweight inline SVG icons. Mobile navigation has 25px icons, larger 12–13px labels and 76px-tall tap areas, with extra content clearance for its taller bar. The visible mobile exam label is shortened to “Exam” on small screens; its accessible name remains “Mock exam”. The Chapters tab stays selected inside lessons and quizzes. Decorative icons are hidden from screen readers and selected tabs expose `aria-current`.
+
+## v2.2 automatic assessment saving
+
+Answers and question positions save immediately. The homepage lists unfinished chapter quizzes and the mock exam under **Continue where you left off**. Chapter quizzes restore the chapter, selected answers and last visible question; the mock exam restores the exact shuffled question order, answers and question index. Completed assessments remain reviewable and are not offered as unfinished.
+
+The mock exam is a pausable practice activity: its timer runs while the exam is visible, pauses when navigating away or hiding/closing the app, and resumes from saved remaining time. Time is checkpointed every five seconds and on answers, navigation, visibility changes and page exit. A forced process/device shutdown can recover from the most recent checkpoint. Active time expiry still submits the exam automatically.
+
+Persistence uses a versioned local-storage record and validates saved data before loading it. Existing session-only exams are migrated. Storage failures display an explicit warning. Saving is local to the same browser and device: it does not sync across devices, and clearing browser data removes saved work.
+
+Run `npm test` for 12 tests covering the study flows, fresh-session recovery, quiz reload, visibility pause/resume, corrupt saved data, blocked storage and completed-exam recovery. Real-browser checks also verify closing and reopening tabs for both an exam and a chapter quiz.
